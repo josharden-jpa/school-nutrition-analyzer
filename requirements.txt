@@ -1,0 +1,8 @@
+# Core dependencies for Cafeteria Critic.
+# Reconcile against your actual imports (or run `pip freeze` and pin) before relying on this.
+requests          # menu-feed + USDA API calls
+anthropic         # item decomposition / matching
+openpyxl          # reads FPED_1718.xlsx
+pandas            # CSV summaries
+plotly            # choropleth maps
+rapidfuzz         # fuzzy food-name matching

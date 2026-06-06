@@ -1,0 +1,24 @@
+# --- secrets: never commit these ---
+anthropicapikey.txt
+*.key
+.env
+.env.*
+secrets.*
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.spyproject/
+.venv/
+venv/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- optional: bulky generated artifacts ---
+# Keep the small result CSVs (they show real output); ignore heavy files if the
+# repo gets noisy. Uncomment as needed:
+# *.pdf
