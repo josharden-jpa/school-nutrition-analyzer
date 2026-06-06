@@ -1,0 +1,3014 @@
+{
+  "tomatoes, fresh": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "lime juice, raw": {
+    "foodcode": "61207010",
+    "description": "Lime juice, 100%, freshly squeezed",
+    "source": "claude",
+    "runs": 4
+  },
+  "cilantro, raw": {
+    "foodcode": "75109550",
+    "description": "Cilantro, raw",
+    "source": "claude",
+    "runs": 4
+  },
+  "tortillas, flour": {
+    "foodcode": "52215200",
+    "description": "Tortilla, flour",
+    "source": "claude",
+    "runs": 1
+  },
+  "nutritional yeast": {
+    "foodcode": "51165000",
+    "description": "Yeast",
+    "source": "claude",
+    "runs": 2
+  },
+  "tomatoes, red, ripe, raw": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "onions, raw": {
+    "foodcode": "75117020",
+    "description": "Onions, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "lime juice, fresh": {
+    "foodcode": "61207010",
+    "description": "Lime juice, 100%, freshly squeezed",
+    "source": "claude",
+    "runs": 2
+  },
+  "tortillas, ready-to-bake or -fry, flour": {
+    "foodcode": "52215200",
+    "description": "Tortilla, flour",
+    "source": "claude",
+    "runs": 3
+  },
+  "lettuce, cos or romaine, raw": {
+    "foodcode": "72116000",
+    "description": "Lettuce, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "tomatoes, red, ripe, raw, year round average": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "lettuce, shredded": {
+    "foodcode": "72116000",
+    "description": "Lettuce, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "bell peppers, raw": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "proxy",
+    "runs": 2
+  },
+  "oil, vegetable": {
+    "foodcode": "82105500",
+    "description": "Canola oil",
+    "source": "claude",
+    "runs": 2
+  },
+  "lettuce, cos or romaine, shredded": {
+    "foodcode": "72116000",
+    "description": "Lettuce, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "corn, sweet, cooked": {
+    "foodcode": "75216153",
+    "description": "Corn, creamed",
+    "source": "claude",
+    "runs": 1
+  },
+  "cashew cream": {
+    "foodcode": "42201000",
+    "description": "Cashew butter",
+    "source": "proxy",
+    "runs": 1
+  },
+  "pizza sauce, canned": {
+    "foodcode": "58131523",
+    "description": "Ravioli, cheese-filled, with tomato sauce, canned",
+    "source": "proxy",
+    "runs": 5
+  },
+  "fish fillets, breaded, cooked": {
+    "foodcode": "99992610",
+    "description": "Fish fillet, fried as ingredient in sandwiches",
+    "source": "claude",
+    "runs": 1
+  },
+  "mayonnaise": {
+    "foodcode": "82108000",
+    "description": "Soybean oil",
+    "source": "proxy",
+    "runs": 33
+  },
+  "onions, cooked": {
+    "foodcode": "75221030",
+    "description": "Onions, pearl, cooked",
+    "source": "claude",
+    "runs": 2
+  },
+  "bell peppers, cooked": {
+    "foodcode": "75226060",
+    "description": "Peppers, red, cooked",
+    "source": "proxy",
+    "runs": 10
+  },
+  "brown sugar": {
+    "foodcode": "91102010",
+    "description": "Sugar, brown",
+    "source": "claude",
+    "runs": 1
+  },
+  "worcestershire sauce": {
+    "foodcode": "41420450",
+    "description": "Worcestershire sauce",
+    "source": "claude",
+    "runs": 1
+  },
+  "vinegar, cider": {
+    "foodcode": "14670000",
+    "description": "Vinegar",
+    "source": "claude",
+    "runs": 1
+  },
+  "cabbage, raw": {
+    "foodcode": "75103000",
+    "description": "Cabbage, green, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "sugar": {
+    "foodcode": "91102010",
+    "description": "Sugar, brown",
+    "source": "claude",
+    "runs": 1
+  },
+  "vinegar, white": {
+    "foodcode": "14670000",
+    "description": "Vinegar",
+    "source": "claude",
+    "runs": 1
+  },
+  "chicken breast, grilled": {
+    "foodcode": "24122170",
+    "description": "Chicken breast, rotisserie, skin not eaten",
+    "source": "claude",
+    "runs": 1
+  },
+  "chicken patty, breaded, cooked": {
+    "foodcode": "24198671",
+    "description": "Chicken patty, breaded",
+    "source": "claude",
+    "runs": 1
+  },
+  "lettuce, iceberg": {
+    "foodcode": "72116000",
+    "description": "Lettuce, raw",
+    "source": "claude",
+    "runs": 3
+  },
+  "tomato, fresh": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "wheat flour, white": {
+    "foodcode": "53420310",
+    "description": "Wheat flour fritter, without syrup",
+    "source": "proxy",
+    "runs": 2
+  },
+  "chicken breast, roasted": {
+    "foodcode": "24122170",
+    "description": "Chicken breast, rotisserie, skin not eaten",
+    "source": "claude",
+    "runs": 1
+  },
+  "parmesan cheese, grated": {
+    "foodcode": "14108010",
+    "description": "Cheese, Parmesan, dry grated",
+    "source": "proxy",
+    "runs": 2
+  },
+  "mozzarella cheese, part skim": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 1
+  },
+  "chicken broth": {
+    "foodcode": "28340110",
+    "description": "Chicken or turkey broth, bouillon, or consomme",
+    "source": "proxy",
+    "runs": 2
+  },
+  "peas, frozen": {
+    "foodcode": "75120000",
+    "description": "Green peas, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "celery, cooked": {
+    "foodcode": "75215020",
+    "description": "Celery, cooked",
+    "source": "claude",
+    "runs": 3
+  },
+  "buffalo sauce": {
+    "foodcode": "74406060",
+    "description": "Buffalo sauce",
+    "source": "claude",
+    "runs": 5
+  },
+  "cheese, cheddar": {
+    "foodcode": "14104100",
+    "description": "Cheese, Cheddar",
+    "source": "proxy",
+    "runs": 1
+  },
+  "celery, raw": {
+    "foodcode": "75109000",
+    "description": "Celery, raw",
+    "source": "claude",
+    "runs": 55
+  },
+  "monterey jack cheese, shredded": {
+    "foodcode": "14104250",
+    "description": "Cheese, Colby Jack",
+    "source": "proxy",
+    "runs": 2
+  },
+  "flour tortillas": {
+    "foodcode": "52215200",
+    "description": "Tortilla, flour",
+    "source": "proxy",
+    "runs": 1
+  },
+  "egg noodles, cooked": {
+    "foodcode": "58145110",
+    "description": "Macaroni or noodles with cheese and egg",
+    "source": "claude",
+    "runs": 2
+  },
+  "chicken broth, canned": {
+    "foodcode": "28340180",
+    "description": "Chicken or turkey broth, less or reduced sodium, canned or ready-to-serve",
+    "source": "proxy",
+    "runs": 1
+  },
+  "penne pasta, cooked": {
+    "foodcode": "56130000",
+    "description": "Pasta, cooked",
+    "source": "claude",
+    "runs": 7
+  },
+  "heavy cream": {
+    "foodcode": "12130100",
+    "description": "Cream, heavy",
+    "source": "proxy",
+    "runs": 1
+  },
+  "garlic, raw": {
+    "foodcode": "75111500",
+    "description": "Garlic, raw",
+    "source": "claude",
+    "runs": 4
+  },
+  "enchilada sauce, canned": {
+    "foodcode": "74402250",
+    "description": "Enchilada sauce, red",
+    "source": "claude",
+    "runs": 2
+  },
+  "refried beans, canned": {
+    "foodcode": "41205010",
+    "description": "Refried beans",
+    "source": "claude",
+    "runs": 1
+  },
+  "onion, cooked": {
+    "foodcode": "75221030",
+    "description": "Onions, pearl, cooked",
+    "source": "claude",
+    "runs": 1
+  },
+  "beef chuck, cooked": {
+    "foodcode": "21000110",
+    "description": "Beef, NS as to cut, cooked, lean and fat eaten",
+    "source": "proxy",
+    "runs": 2
+  },
+  "marinara sauce, canned": {
+    "foodcode": "58131520",
+    "description": "Ravioli, cheese-filled, with tomato sauce",
+    "source": "proxy",
+    "runs": 1
+  },
+  "submarine roll": {
+    "foodcode": "51157000",
+    "description": "Roll, white, hoagie, submarine",
+    "source": "claude",
+    "runs": 1
+  },
+  "lasagna noodles, cooked": {
+    "foodcode": "56130000",
+    "description": "Pasta, cooked",
+    "source": "proxy",
+    "runs": 2
+  },
+  "ricotta cheese": {
+    "foodcode": "14010000",
+    "description": "Cheese, NFS",
+    "source": "proxy",
+    "runs": 4
+  },
+  "beef gravy, canned": {
+    "foodcode": "28500040",
+    "description": "Gravy, beef",
+    "source": "claude",
+    "runs": 1
+  },
+  "mushrooms, canned": {
+    "foodcode": "75414030",
+    "description": "Fried mushrooms",
+    "source": "claude",
+    "runs": 2
+  },
+  "turkey, deli sliced": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "claude",
+    "runs": 2
+  },
+  "cheese, american": {
+    "foodcode": "14104100",
+    "description": "Cheese, Cheddar",
+    "source": "proxy",
+    "runs": 9
+  },
+  "ground turkey, cooked": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "proxy",
+    "runs": 2
+  },
+  "onion, raw": {
+    "foodcode": "75117020",
+    "description": "Onions, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "turkey, roasted": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "claude",
+    "runs": 3
+  },
+  "fish sticks, breaded, cooked": {
+    "foodcode": "26100130",
+    "description": "Fish, NS as to type, coated, baked or broiled, made with oil",
+    "source": "proxy",
+    "runs": 2
+  },
+  "tartar sauce": {
+    "foodcode": "81302050",
+    "description": "Tartar sauce",
+    "source": "claude",
+    "runs": 3
+  },
+  "fish fillet, breaded, cooked": {
+    "foodcode": "99992610",
+    "description": "Fish fillet, fried as ingredient in sandwiches",
+    "source": "claude",
+    "runs": 1
+  },
+  "american cheese, processed": {
+    "foodcode": "14410100",
+    "description": "Cheese, American",
+    "source": "claude",
+    "runs": 3
+  },
+  "cod fillet, cooked, dry heat": {
+    "foodcode": "26109123",
+    "description": "Cod, baked or broiled, no added fat",
+    "source": "proxy",
+    "runs": 1
+  },
+  "bread crumbs, dry, grated, plain": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "proxy",
+    "runs": 2
+  },
+  "flour, white, all-purpose, enriched": {
+    "foodcode": "53420310",
+    "description": "Wheat flour fritter, without syrup",
+    "source": "proxy",
+    "runs": 1
+  },
+  "tuna, canned in water, drained": {
+    "foodcode": "26155110",
+    "description": "Tuna, canned, NS as to oil or water pack",
+    "source": "proxy",
+    "runs": 2
+  },
+  "celery, raw, diced": {
+    "foodcode": "75109000",
+    "description": "Celery, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "onion, raw, diced": {
+    "foodcode": "75117020",
+    "description": "Onions, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "tuna, canned in water": {
+    "foodcode": "26155110",
+    "description": "Tuna, canned, NS as to oil or water pack",
+    "source": "proxy",
+    "runs": 2
+  },
+  "cream of mushroom soup, canned": {
+    "foodcode": "75607060",
+    "description": "Mushroom soup, cream of, NS as to made with milk or water",
+    "source": "proxy",
+    "runs": 2
+  },
+  "frankfurter, beef and pork": {
+    "foodcode": "27420040",
+    "description": "Frankfurters or hot dogs and sauerkraut",
+    "source": "claude",
+    "runs": 3
+  },
+  "hot dog bun, white": {
+    "foodcode": "51154010",
+    "description": "Roll, white, hot dog bun",
+    "source": "claude",
+    "runs": 1
+  },
+  "hot dog, beef and pork": {
+    "foodcode": "25210250",
+    "description": "Hot dog, meat and poultry",
+    "source": "claude",
+    "runs": 2
+  },
+  "pepperoni": {
+    "foodcode": "22311010",
+    "description": "Ham, smoked or cured, cooked, lean and fat eaten",
+    "source": "proxy",
+    "runs": 3
+  },
+  "italian sausage, cooked": {
+    "foodcode": "25221350",
+    "description": "Italian sausage",
+    "source": "claude",
+    "runs": 3
+  },
+  "pork sausage, cooked": {
+    "foodcode": "25221405",
+    "description": "Pork sausage",
+    "source": "claude",
+    "runs": 2
+  },
+  "pork shoulder, cooked": {
+    "foodcode": "22000110",
+    "description": "Pork, NS as to cut, cooked, lean and fat eaten",
+    "source": "proxy",
+    "runs": 1
+  },
+  "barbecue sauce": {
+    "foodcode": "24209000",
+    "description": "Barbecue sauce",
+    "source": "claude",
+    "runs": 9
+  },
+  "coleslaw mix": {
+    "foodcode": "75140990",
+    "description": "Coleslaw",
+    "source": "claude",
+    "runs": 1
+  },
+  "elbow macaroni, cooked": {
+    "foodcode": "58145110",
+    "description": "Macaroni or noodles with cheese",
+    "source": "proxy",
+    "runs": 2
+  },
+  "margarine": {
+    "foodcode": "81102000",
+    "description": "Margarine, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "wheat flour, white, all-purpose": {
+    "foodcode": "53420310",
+    "description": "Wheat flour fritter, without syrup",
+    "source": "proxy",
+    "runs": 2
+  },
+  "yeast, baker's, active dry": {
+    "foodcode": "51165000",
+    "description": "Yeast",
+    "source": "claude",
+    "runs": 2
+  },
+  "parsley, fresh": {
+    "foodcode": "75119000",
+    "description": "Parsley, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "wheat flour, enriched": {
+    "foodcode": "53420310",
+    "description": "Wheat flour fritter, without syrup",
+    "source": "proxy",
+    "runs": 27
+  },
+  "yeast, baker's": {
+    "foodcode": "51165000",
+    "description": "Yeast",
+    "source": "claude",
+    "runs": 5
+  },
+  "green peas, cooked": {
+    "foodcode": "41303000",
+    "description": "Split peas, from dried, no added fat",
+    "source": "proxy",
+    "runs": 1
+  },
+  "caesar dressing (contains anchovy, egg)": {
+    "foodcode": "32103020",
+    "description": "Egg salad, made with mayonnaise-type salad dressing",
+    "source": "proxy",
+    "runs": 1
+  },
+  "croutons": {
+    "foodcode": "51185000",
+    "description": "Croutons",
+    "source": "claude",
+    "runs": 2
+  },
+  "cucumber, peeled, raw": {
+    "foodcode": "75111000",
+    "description": "Cucumber, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "salad dressing, ranch, regular": {
+    "foodcode": "12350230",
+    "description": "Ranch dip, regular",
+    "source": "proxy",
+    "runs": 1
+  },
+  "cucumber, raw": {
+    "foodcode": "75111000",
+    "description": "Cucumber, raw",
+    "source": "claude",
+    "runs": 54
+  },
+  "grapes": {
+    "foodcode": "63123000",
+    "description": "Grapes, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "pear, raw": {
+    "foodcode": "63137010",
+    "description": "Pear, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "pears, canned in juice": {
+    "foodcode": "63137170",
+    "description": "Pear, canned, juice pack",
+    "source": "claude",
+    "runs": 2
+  },
+  "pineapple, canned in juice": {
+    "foodcode": "63141170",
+    "description": "Pineapple, canned, juice pack",
+    "source": "proxy",
+    "runs": 6
+  },
+  "applesauce, canned, unsweetened": {
+    "foodcode": "63101120",
+    "description": "Applesauce, unsweetened",
+    "source": "proxy",
+    "runs": 9
+  },
+  "watermelon, raw": {
+    "foodcode": "63149010",
+    "description": "Watermelon, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "milk, 2% fat": {
+    "foodcode": "11112110",
+    "description": "Milk, reduced fat (2%)",
+    "source": "proxy",
+    "runs": 1
+  },
+  "milk, reduced fat, fluid, 2% milkfat": {
+    "foodcode": "11112110",
+    "description": "Milk, reduced fat (2%)",
+    "source": "proxy",
+    "runs": 1
+  },
+  "chocolate syrup": {
+    "foodcode": "91301080",
+    "description": "Chocolate syrup",
+    "source": "claude",
+    "runs": 2
+  },
+  "yogurt, plain, low fat": {
+    "foodcode": "11436000",
+    "description": "Yogurt, liquid",
+    "source": "claude",
+    "runs": 1
+  },
+  "cottage cheese": {
+    "foodcode": "14010000",
+    "description": "Cheese, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "buttermilk": {
+    "foodcode": "11115000",
+    "description": "Buttermilk",
+    "source": "claude",
+    "runs": 25
+  },
+  "mustard, prepared yellow": {
+    "foodcode": "27150370",
+    "description": "Mustard",
+    "source": "claude",
+    "runs": 1
+  },
+  "molasses": {
+    "foodcode": "51115010",
+    "description": "Molasses",
+    "source": "claude",
+    "runs": 29
+  },
+  "jalapeno peppers, raw": {
+    "foodcode": "75226111",
+    "description": "Hot peppers, cooked",
+    "source": "proxy",
+    "runs": 1
+  },
+  "avocados": {
+    "foodcode": "63105010",
+    "description": "Avocado, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "onions": {
+    "foodcode": "75117020",
+    "description": "Onions, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "tomatoes": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "pizza dough, prepared": {
+    "foodcode": "58106205",
+    "description": "Pizza, cheese, from frozen, thick crust",
+    "source": "proxy",
+    "runs": 1
+  },
+  "macaroni pasta, cooked": {
+    "foodcode": "56130000",
+    "description": "Pasta, cooked",
+    "source": "proxy",
+    "runs": 1
+  },
+  "tomato soup, canned": {
+    "foodcode": "28350120",
+    "description": "Soup, tomato",
+    "source": "claude",
+    "runs": 1
+  },
+  "tortilla chips": {
+    "foodcode": "54401021",
+    "description": "Corn chips, plain",
+    "source": "proxy",
+    "runs": 2
+  },
+  "cheese sauce": {
+    "foodcode": "14650100",
+    "description": "Cheese sauce",
+    "source": "claude",
+    "runs": 17
+  },
+  "taco shells, hard": {
+    "foodcode": "52215300",
+    "description": "Taco shell, corn",
+    "source": "claude",
+    "runs": 1
+  },
+  "onions, raw, diced": {
+    "foodcode": "75117020",
+    "description": "Onions, raw",
+    "source": "claude",
+    "runs": 4
+  },
+  "peas, frozen, cooked": {
+    "foodcode": "41303000",
+    "description": "Split peas, from dried, no added fat",
+    "source": "proxy",
+    "runs": 2
+  },
+  "ziti pasta, cooked": {
+    "foodcode": "56130000",
+    "description": "Pasta, cooked",
+    "source": "claude",
+    "runs": 1
+  },
+  "ricotta cheese, part skim": {
+    "foodcode": "14201500",
+    "description": "Cheese, Ricotta",
+    "source": "proxy",
+    "runs": 1
+  },
+  "turkey breast, cooked": {
+    "foodcode": "24201120",
+    "description": "Turkey, light meat, roasted, skin not eaten",
+    "source": "proxy",
+    "runs": 6
+  },
+  "pancake, plain": {
+    "foodcode": "55100010",
+    "description": "Pancakes, plain",
+    "source": "claude",
+    "runs": 1
+  },
+  "syrup, pancake": {
+    "foodcode": "91300100",
+    "description": "Pancake syrup",
+    "source": "proxy",
+    "runs": 2
+  },
+  "eggs, whole, cooked, scrambled": {
+    "foodcode": "32105330",
+    "description": "Scrambled eggs with jerked beef, Puerto Rican style",
+    "source": "proxy",
+    "runs": 1
+  },
+  "peanut butter, smooth": {
+    "foodcode": "42202000",
+    "description": "Peanut butter",
+    "source": "claude",
+    "runs": 2
+  },
+  "jelly, grape": {
+    "foodcode": "42203000",
+    "description": "Jelly",
+    "source": "claude",
+    "runs": 5
+  },
+  "turkey, deli meat, oven roasted": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "cheese, american, processed": {
+    "foodcode": "14104100",
+    "description": "Cheese, Cheddar",
+    "source": "proxy",
+    "runs": 5
+  },
+  "ham, sliced, regular": {
+    "foodcode": "22311000",
+    "description": "Ham, smoked or cured, cooked, NS as to fat eaten",
+    "source": "proxy",
+    "runs": 1
+  },
+  "turkey breast, sliced": {
+    "foodcode": "24201120",
+    "description": "Turkey, light meat, roasted, skin not eaten",
+    "source": "proxy",
+    "runs": 1
+  },
+  "ham, sliced": {
+    "foodcode": "22311000",
+    "description": "Ham, smoked or cured, cooked, NS as to fat eaten",
+    "source": "proxy",
+    "runs": 3
+  },
+  "beef broth, canned": {
+    "foodcode": "28340179",
+    "description": "Beef broth, less or reduced sodium, canned or ready-to-serve",
+    "source": "proxy",
+    "runs": 3
+  },
+  "biscuit, buttermilk": {
+    "foodcode": "52104010",
+    "description": "Biscuit, home recipe",
+    "source": "claude",
+    "runs": 1
+  },
+  "bell peppers, red or green, raw": {
+    "foodcode": "75226060",
+    "description": "Peppers, red, cooked",
+    "source": "proxy",
+    "runs": 1
+  },
+  "chicken breast, baked": {
+    "foodcode": "24122131",
+    "description": "Chicken breast, baked, broiled, or roasted, skin not eaten, from raw",
+    "source": "proxy",
+    "runs": 1
+  },
+  "lettuce": {
+    "foodcode": "72116000",
+    "description": "Lettuce, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "tomato": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "onions, diced": {
+    "foodcode": "75117020",
+    "description": "Onions, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "tomato, diced": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "beef, chuck roast, cooked": {
+    "foodcode": "21000110",
+    "description": "Beef, NS as to cut, cooked, lean and fat eaten",
+    "source": "proxy",
+    "runs": 2
+  },
+  "parmesan cheese": {
+    "foodcode": "14104100",
+    "description": "Cheese, Cheddar",
+    "source": "proxy",
+    "runs": 9
+  },
+  "beef gravy, prepared": {
+    "foodcode": "28500040",
+    "description": "Gravy, beef",
+    "source": "claude",
+    "runs": 1
+  },
+  "turkey, sliced, deli meat": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "fish sticks, breaded, frozen, baked": {
+    "foodcode": "26100130",
+    "description": "Fish, NS as to type, coated, baked or broiled, made with oil",
+    "source": "proxy",
+    "runs": 1
+  },
+  "fish fillet, breaded, baked": {
+    "foodcode": "26100130",
+    "description": "Fish, NS as to type, coated, baked or broiled, made with oil",
+    "source": "proxy",
+    "runs": 1
+  },
+  "cod fillet, baked": {
+    "foodcode": "26109123",
+    "description": "Cod, baked or broiled, no added fat",
+    "source": "proxy",
+    "runs": 1
+  },
+  "frozen mixed vegetables, cooked": {
+    "foodcode": "75311012",
+    "description": "Classic mixed vegetables, frozen, cooked with oil",
+    "source": "claude",
+    "runs": 1
+  },
+  "hot dog bun": {
+    "foodcode": "51154010",
+    "description": "Roll, white, hot dog bun",
+    "source": "claude",
+    "runs": 2
+  },
+  "yellow mustard": {
+    "foodcode": "75506010",
+    "description": "Mustard",
+    "source": "proxy",
+    "runs": 2
+  },
+  "corn, yellow, cooked": {
+    "foodcode": "75216153",
+    "description": "Corn, creamed",
+    "source": "claude",
+    "runs": 31
+  },
+  "cucumber, with peel, raw": {
+    "foodcode": "75111000",
+    "description": "Cucumber, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "salad dressing, ranch": {
+    "foodcode": "12350230",
+    "description": "Ranch dip, regular",
+    "source": "proxy",
+    "runs": 3
+  },
+  "pears, raw": {
+    "foodcode": "63137010",
+    "description": "Pear, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "milk, low fat, 1%": {
+    "foodcode": "11112210",
+    "description": "Milk, low fat (1%)",
+    "source": "proxy",
+    "runs": 1
+  },
+  "yogurt, vanilla, low fat": {
+    "foodcode": "11400000",
+    "description": "Yogurt, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "vinegar, distilled": {
+    "foodcode": "14670000",
+    "description": "Vinegar",
+    "source": "claude",
+    "runs": 6
+  },
+  "mustard, prepared": {
+    "foodcode": "27150370",
+    "description": "Mustard",
+    "source": "claude",
+    "runs": 7
+  },
+  "avocados, raw": {
+    "foodcode": "63105010",
+    "description": "Avocado, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "black olives, canned": {
+    "foodcode": "75510020",
+    "description": "Olives, black",
+    "source": "claude",
+    "runs": 2
+  },
+  "cheese, monterey jack": {
+    "foodcode": "14104250",
+    "description": "Cheese, Colby Jack",
+    "source": "proxy",
+    "runs": 1
+  },
+  "taco shells, hard corn": {
+    "foodcode": "52215300",
+    "description": "Taco shell, corn",
+    "source": "claude",
+    "runs": 1
+  },
+  "garlic, fresh": {
+    "foodcode": "75111500",
+    "description": "Garlic, raw",
+    "source": "claude",
+    "runs": 8
+  },
+  "pancake, plain, prepared from recipe": {
+    "foodcode": "55100010",
+    "description": "Pancakes, plain",
+    "source": "claude",
+    "runs": 1
+  },
+  "hash browns, frozen, cooked": {
+    "foodcode": "71405040",
+    "description": "Potato, hash brown, ready-to-heat",
+    "source": "claude",
+    "runs": 1
+  },
+  "turkey, sliced": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "mustard, yellow": {
+    "foodcode": "27150370",
+    "description": "Mustard",
+    "source": "claude",
+    "runs": 2
+  },
+  "pickles, dill": {
+    "foodcode": "75511100",
+    "description": "Pickles, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "beef, stew meat, cooked": {
+    "foodcode": "27111200",
+    "description": "Beef burgundy",
+    "source": "claude",
+    "runs": 1
+  },
+  "biscuits, prepared from mix": {
+    "foodcode": "52101000",
+    "description": "Biscuit, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "corn, frozen": {
+    "foodcode": "75109600",
+    "description": "Corn, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "wheat flour": {
+    "foodcode": "51101000",
+    "description": "Bread, white",
+    "source": "proxy",
+    "runs": 30
+  },
+  "eggs": {
+    "foodcode": "27450110",
+    "description": "Shrimp garden salad, shrimp, lettuce, eggs, tomato and/or carrots, other vegetables, no dressing",
+    "source": "fuzzy",
+    "runs": 8
+  },
+  "pie crust": {
+    "foodcode": "53300100",
+    "description": "Pie, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "flour, white": {
+    "foodcode": "21103110",
+    "description": "Beef steak, breaded or floured, baked or fried, NS as to fat eaten",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "celery": {
+    "foodcode": "75109000",
+    "description": "Celery, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "ranch dressing": {
+    "foodcode": "82101000",
+    "description": "Vegetable oil, NFS",
+    "source": "proxy",
+    "runs": 12
+  },
+  "onion": {
+    "foodcode": "75117020",
+    "description": "Onions, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "pickle relish": {
+    "foodcode": "75503020",
+    "description": "Relish, pickle",
+    "source": "claude",
+    "runs": 1
+  },
+  "corn tortillas": {
+    "foodcode": "21416000",
+    "description": "Corned beef, cooked, NS as to fat eaten",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "tomato paste, canned": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "proxy",
+    "runs": 4
+  },
+  "flour, all-purpose": {
+    "foodcode": "51101000",
+    "description": "Bread, white",
+    "source": "proxy",
+    "runs": 1
+  },
+  "bread crumbs, dry": {
+    "foodcode": "51101000",
+    "description": "Bread, white",
+    "source": "proxy",
+    "runs": 47
+  },
+  "tomato sauce, canned": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "proxy",
+    "runs": 54
+  },
+  "bread, submarine roll": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "spaghetti, cooked": {
+    "foodcode": "56130000",
+    "description": "Pasta, cooked",
+    "source": "proxy",
+    "runs": 1
+  },
+  "turkey, sliced, roasted": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "turkey, ground, cooked": {
+    "foodcode": "24207000",
+    "description": "Turkey, ground",
+    "source": "claude",
+    "runs": 2
+  },
+  "lemon wedge": {
+    "foodcode": "28150510",
+    "description": "Fish in lemon-butter sauce with starch item, vegetable, frozen meal",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "cod fillet, cooked": {
+    "foodcode": "26109123",
+    "description": "Cod, baked or broiled, no added fat",
+    "source": "proxy",
+    "runs": 1
+  },
+  "cod, baked": {
+    "foodcode": "93301032",
+    "description": "Cape Cod",
+    "source": "claude",
+    "runs": 1
+  },
+  "breadcrumbs, plain": {
+    "foodcode": "51101000",
+    "description": "Bread, white",
+    "source": "proxy",
+    "runs": 1
+  },
+  "hot dog bun, enriched": {
+    "foodcode": "51154010",
+    "description": "Roll, white, hot dog bun",
+    "source": "claude",
+    "runs": 1
+  },
+  "wheat flour, all-purpose": {
+    "foodcode": "51101000",
+    "description": "Bread, white",
+    "source": "proxy",
+    "runs": 6
+  },
+  "pinto beans, cooked": {
+    "foodcode": "41103990",
+    "description": "Pinto beans, NFS",
+    "source": "fuzzy",
+    "runs": 15
+  },
+  "sugar, granulated": {
+    "foodcode": "53713000",
+    "description": "Sugar, NFS",
+    "source": "claude",
+    "runs": 13
+  },
+  "garlic": {
+    "foodcode": "75111500",
+    "description": "Garlic, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "parsley": {
+    "foodcode": "75119000",
+    "description": "Parsley, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "peaches, canned in light syrup": {
+    "foodcode": "67108020",
+    "description": "Peaches, baby food, junior",
+    "source": "proxy",
+    "runs": 2
+  },
+  "pears, canned in light syrup": {
+    "foodcode": "63137140",
+    "description": "Pear, canned, in syrup",
+    "source": "claude",
+    "runs": 2
+  },
+  "applesauce, unsweetened": {
+    "foodcode": "63101120",
+    "description": "Applesauce, unsweetened",
+    "source": "proxy",
+    "runs": 2
+  },
+  "milk, reduced fat, 2%": {
+    "foodcode": "11112130",
+    "description": "Milk, acidophilus, reduced fat (2%)",
+    "source": "proxy",
+    "runs": 1
+  },
+  "cocoa powder": {
+    "foodcode": "11830150",
+    "description": "Cocoa powder, not reconstituted",
+    "source": "claude",
+    "runs": 1
+  },
+  "mushrooms, raw": {
+    "foodcode": "75414030",
+    "description": "Fried mushrooms",
+    "source": "claude",
+    "runs": 1
+  },
+  "diced tomatoes, canned": {
+    "foodcode": "27121000",
+    "description": "Pork with chili and tomatoes",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "cheese sauce, prepared": {
+    "foodcode": "14650100",
+    "description": "Cheese sauce",
+    "source": "claude",
+    "runs": 2
+  },
+  "taco shell, hard": {
+    "foodcode": "52215300",
+    "description": "Taco shell, corn",
+    "source": "claude",
+    "runs": 1
+  },
+  "corn, whole kernel": {
+    "foodcode": "75109600",
+    "description": "Corn, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "sugar, brown": {
+    "foodcode": "91102010",
+    "description": "Sugar, brown",
+    "source": "claude",
+    "runs": 1
+  },
+  "corn starch": {
+    "foodcode": "21416000",
+    "description": "Corned beef, cooked, NS as to fat eaten",
+    "source": "fuzzy",
+    "runs": 32
+  },
+  "pancake mix, prepared": {
+    "foodcode": "55100005",
+    "description": "Pancakes, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "peanut butter": {
+    "foodcode": "42202000",
+    "description": "Peanut butter",
+    "source": "claude",
+    "runs": 5
+  },
+  "turkey, deli meat, low sodium": {
+    "foodcode": "24206000",
+    "description": "Turkey, canned",
+    "source": "claude",
+    "runs": 1
+  },
+  "sub roll": {
+    "foodcode": "27510130",
+    "description": "Beef barbecue submarine sandwich, on bun",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "ham, deli sliced": {
+    "foodcode": "22311010",
+    "description": "Ham, smoked or cured, cooked, lean and fat eaten",
+    "source": "proxy",
+    "runs": 1
+  },
+  "flour, wheat": {
+    "foodcode": "21103110",
+    "description": "Beef steak, breaded or floured, baked or fried, NS as to fat eaten",
+    "source": "fuzzy",
+    "runs": 2
+  },
+  "biscuits, plain": {
+    "foodcode": "52101000",
+    "description": "Biscuit, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "mixed vegetables, frozen": {
+    "foodcode": "75311012",
+    "description": "Classic mixed vegetables, frozen, cooked, no added fat",
+    "source": "proxy",
+    "runs": 1
+  },
+  "beef broth": {
+    "foodcode": "28310170",
+    "description": "Beef broth, without tomato, home recipe",
+    "source": "proxy",
+    "runs": 1
+  },
+  "soybean oil": {
+    "foodcode": "82108000",
+    "description": "Soybean oil",
+    "source": "claude",
+    "runs": 24
+  },
+  "buttermilk, fluid": {
+    "foodcode": "11115000",
+    "description": "Buttermilk",
+    "source": "claude",
+    "runs": 16
+  },
+  "egg yolk": {
+    "foodcode": "31110010",
+    "description": "Egg, yolk only, raw",
+    "source": "claude",
+    "runs": 25
+  },
+  "modified food starch": {
+    "foodcode": "28150510",
+    "description": "Fish in lemon-butter sauce with starch item, vegetable, frozen meal",
+    "source": "claude",
+    "runs": 1
+  },
+  "cherry tomatoes, raw": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 27
+  },
+  "cucumbers, raw": {
+    "foodcode": "75111000",
+    "description": "Cucumber, raw",
+    "source": "claude",
+    "runs": 27
+  },
+  "ranch dip, prepared": {
+    "foodcode": "12350230",
+    "description": "Ranch dip, regular",
+    "source": "claude",
+    "runs": 12
+  },
+  "sweet potato, baked": {
+    "foodcode": "73401000",
+    "description": "Sweet potato, NFS",
+    "source": "claude",
+    "runs": 21
+  },
+  "pepperoni, cured": {
+    "foodcode": "25221250",
+    "description": "Pepperoni, NFS",
+    "source": "proxy",
+    "runs": 17
+  },
+  "edamame, cooked": {
+    "foodcode": "41420020",
+    "description": "Edamame, cooked",
+    "source": "claude",
+    "runs": 27
+  },
+  "chicken breast, breaded, cooked": {
+    "foodcode": "24100020",
+    "description": "Chicken, NS as to part and cooking method, skin not eaten",
+    "source": "proxy",
+    "runs": 1
+  },
+  "high fructose corn syrup": {
+    "foodcode": "91301030",
+    "description": "Corn syrup",
+    "source": "claude",
+    "runs": 38
+  },
+  "snap peas, cooked": {
+    "foodcode": "75120000",
+    "description": "Green peas, raw",
+    "source": "claude",
+    "runs": 8
+  },
+  "pears, canned in light syrup, drained": {
+    "foodcode": "63137140",
+    "description": "Pear, canned, in syrup",
+    "source": "claude",
+    "runs": 11
+  },
+  "pear juice or light syrup": {
+    "foodcode": "63137170",
+    "description": "Pear, canned, juice pack",
+    "source": "claude",
+    "runs": 1
+  },
+  "eggs, cooked": {
+    "foodcode": "27450110",
+    "description": "Shrimp garden salad, shrimp, lettuce, eggs, tomato and/or carrots, other vegetables, no dressing",
+    "source": "fuzzy",
+    "runs": 25
+  },
+  "noodles, cooked": {
+    "foodcode": "56112000",
+    "description": "Noodles, cooked",
+    "source": "claude",
+    "runs": 2
+  },
+  "corn tortilla, baked": {
+    "foodcode": "52215100",
+    "description": "Tortilla, corn",
+    "source": "claude",
+    "runs": 1
+  },
+  "carrot, raw": {
+    "foodcode": "73101010",
+    "description": "Carrots, raw",
+    "source": "claude",
+    "runs": 6
+  },
+  "corn syrup": {
+    "foodcode": "91301030",
+    "description": "Corn syrup",
+    "source": "claude",
+    "runs": 25
+  },
+  "pretzel bread, baked": {
+    "foodcode": "54408400",
+    "description": "Pretzels, soft, NFS",
+    "source": "claude",
+    "runs": 7
+  },
+  "cheddar cheese, processed": {
+    "foodcode": "14104100",
+    "description": "Cheese, Cheddar",
+    "source": "proxy",
+    "runs": 22
+  },
+  "tomato puree, canned": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "fuzzy",
+    "runs": 5
+  },
+  "milk solids, nonfat": {
+    "foodcode": "11113000",
+    "description": "Milk, fat free (skim)",
+    "source": "proxy",
+    "runs": 6
+  },
+  "beans, pinto, cooked": {
+    "foodcode": "41100990",
+    "description": "Beans, NFS",
+    "source": "claude",
+    "runs": 5
+  },
+  "bacon, cooked": {
+    "foodcode": "41810250",
+    "description": "Bacon bits",
+    "source": "claude",
+    "runs": 11
+  },
+  "peach juice, canned": {
+    "foodcode": "64205010",
+    "description": "Peach nectar",
+    "source": "claude",
+    "runs": 4
+  },
+  "pizza crust, baked": {
+    "foodcode": "58106205",
+    "description": "Pizza, cheese, from frozen, thick crust",
+    "source": "proxy",
+    "runs": 35
+  },
+  "mozzarella cheese, low moisture": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 1
+  },
+  "pepperoni, sliced": {
+    "foodcode": "25221250",
+    "description": "Pepperoni, NFS",
+    "source": "proxy",
+    "runs": 9
+  },
+  "sweet potato, raw": {
+    "foodcode": "73401000",
+    "description": "Sweet potato, NFS",
+    "source": "claude",
+    "runs": 17
+  },
+  "beans, navy, canned": {
+    "foodcode": "41100990",
+    "description": "Beans, NFS",
+    "source": "claude",
+    "runs": 15
+  },
+  "tomato sauce": {
+    "foodcode": "27250132",
+    "description": "Shrimp and noodles with tomato sauce",
+    "source": "fuzzy",
+    "runs": 28
+  },
+  "chicken breast, ground, cooked": {
+    "foodcode": "24198720",
+    "description": "Chicken, ground",
+    "source": "proxy",
+    "runs": 3
+  },
+  "soybeans, edamame, cooked": {
+    "foodcode": "41107010",
+    "description": "Soybeans, cooked",
+    "source": "claude",
+    "runs": 2
+  },
+  "bread, white, toasted": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 5
+  },
+  "eggs, whole, cooked": {
+    "foodcode": "32110100",
+    "description": "Eggs a la Malaguena, Puerto Rican style",
+    "source": "proxy",
+    "runs": 1
+  },
+  "peaches, canned, diced, drained": {
+    "foodcode": "63135010",
+    "description": "Peach, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "tomato paste": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "proxy",
+    "runs": 3
+  },
+  "garlic, cooked": {
+    "foodcode": "75217400",
+    "description": "Garlic, cooked",
+    "source": "claude",
+    "runs": 9
+  },
+  "beef, cooked, ground": {
+    "foodcode": "27416200",
+    "description": "Beef, ground",
+    "source": "claude",
+    "runs": 2
+  },
+  "wheat noodles, cooked": {
+    "foodcode": "56112000",
+    "description": "Noodles, cooked",
+    "source": "claude",
+    "runs": 17
+  },
+  "yogurt, plain, whole milk": {
+    "foodcode": "11436000",
+    "description": "Yogurt, liquid",
+    "source": "claude",
+    "runs": 20
+  },
+  "whey protein concentrate": {
+    "foodcode": "11825000",
+    "description": "Whey, sweet, dry",
+    "source": "claude",
+    "runs": 2
+  },
+  "corn tortilla chips": {
+    "foodcode": "54401075",
+    "description": "Tortilla chips, plain",
+    "source": "claude",
+    "runs": 15
+  },
+  "broccoli, raw": {
+    "foodcode": "72201100",
+    "description": "Broccoli, raw",
+    "source": "claude",
+    "runs": 16
+  },
+  "corn flour": {
+    "foodcode": "52207010",
+    "description": "Corn flour patty or tart, fried",
+    "source": "claude",
+    "runs": 13
+  },
+  "potato starch": {
+    "foodcode": "28150510",
+    "description": "Fish in lemon-butter sauce with starch item, vegetable, frozen meal",
+    "source": "claude",
+    "runs": 22
+  },
+  "bread, white, enriched": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 19
+  },
+  "eggs, whole, raw": {
+    "foodcode": "32110100",
+    "description": "Eggs a la Malaguena, Puerto Rican style",
+    "source": "proxy",
+    "runs": 11
+  },
+  "peach juice or light syrup": {
+    "foodcode": "63135170",
+    "description": "Peach, canned, juice pack",
+    "source": "claude",
+    "runs": 16
+  },
+  "corn, sweet, yellow, cooked": {
+    "foodcode": "75216153",
+    "description": "Corn, creamed",
+    "source": "claude",
+    "runs": 1
+  },
+  "corn chips, fried": {
+    "foodcode": "54401026",
+    "description": "Corn chips, flavored",
+    "source": "proxy",
+    "runs": 5
+  },
+  "lettuce, raw, shredded": {
+    "foodcode": "72116000",
+    "description": "Lettuce, raw",
+    "source": "claude",
+    "runs": 6
+  },
+  "tomatoes, raw, diced": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "whey, dry": {
+    "foodcode": "11825000",
+    "description": "Whey, sweet, dry",
+    "source": "claude",
+    "runs": 1
+  },
+  "ranch dip, creamy": {
+    "foodcode": "12350230",
+    "description": "Ranch dip, regular",
+    "source": "claude",
+    "runs": 6
+  },
+  "soybeans, green, cooked": {
+    "foodcode": "41107010",
+    "description": "Soybeans, cooked",
+    "source": "claude",
+    "runs": 12
+  },
+  "mixed vegetables, cooked": {
+    "foodcode": "75311020",
+    "description": "Classic mixed vegetables, NS as to form, cooked",
+    "source": "proxy",
+    "runs": 2
+  },
+  "tortilla shell, fried": {
+    "foodcode": "52215300",
+    "description": "Taco shell, corn",
+    "source": "claude",
+    "runs": 2
+  },
+  "carrot, cooked": {
+    "foodcode": "99997310",
+    "description": "Carrots, cooked, as ingredient",
+    "source": "claude",
+    "runs": 2
+  },
+  "egg roll wrapper, fried": {
+    "foodcode": "14660200",
+    "description": "Mozzarella sticks, breaded, baked, or fried",
+    "source": "proxy",
+    "runs": 5
+  },
+  "corn syrup, light": {
+    "foodcode": "91301030",
+    "description": "Corn syrup",
+    "source": "claude",
+    "runs": 1
+  },
+  "cheddar cheese, melted": {
+    "foodcode": "14420100",
+    "description": "Cheese spread, American or Cheddar cheese base",
+    "source": "proxy",
+    "runs": 1
+  },
+  "jalapeño peppers, cooked": {
+    "foodcode": "75226020",
+    "description": "Peppers, green, cooked",
+    "source": "claude",
+    "runs": 2
+  },
+  "peaches, canned in light syrup, drained": {
+    "foodcode": "67108020",
+    "description": "Peaches, baby food, junior",
+    "source": "proxy",
+    "runs": 36
+  },
+  "mozzarella cheese, whole milk": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 3
+  },
+  "whole wheat flour": {
+    "foodcode": "14640006",
+    "description": "Cheese sandwich, American cheese, on whole wheat bread, no spread",
+    "source": "fuzzy",
+    "runs": 5
+  },
+  "beef patty, cooked": {
+    "foodcode": "21000110",
+    "description": "Beef, NS as to cut, cooked, lean and fat eaten",
+    "source": "proxy",
+    "runs": 23
+  },
+  "chicken sausage, cooked": {
+    "foodcode": "25221830",
+    "description": "Turkey or chicken sausage",
+    "source": "claude",
+    "runs": 14
+  },
+  "chicken meat, ground": {
+    "foodcode": "24198570",
+    "description": "Chicken, canned, meat only",
+    "source": "claude",
+    "runs": 7
+  },
+  "soy protein isolate": {
+    "foodcode": "95230010",
+    "description": "Nutritional powder mix, protein, soy based, NFS",
+    "source": "claude",
+    "runs": 2
+  },
+  "vegetable oil and vinegar dressing": {
+    "foodcode": "83106000",
+    "description": "Italian dressing, made with vinegar and oil",
+    "source": "claude",
+    "runs": 5
+  },
+  "ranch dip": {
+    "foodcode": "12350230",
+    "description": "Ranch dip, regular",
+    "source": "claude",
+    "runs": 3
+  },
+  "cheese, mozzarella, low-moisture": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 1
+  },
+  "soybeans, cooked": {
+    "foodcode": "41107010",
+    "description": "Soybeans, cooked",
+    "source": "claude",
+    "runs": 2
+  },
+  "peach juice or syrup": {
+    "foodcode": "63135140",
+    "description": "Peach, canned, in syrup",
+    "source": "claude",
+    "runs": 2
+  },
+  "chicken meat, cooked": {
+    "foodcode": "24198570",
+    "description": "Chicken, canned, meat only",
+    "source": "claude",
+    "runs": 1
+  },
+  "bananas, raw": {
+    "foodcode": "63107010",
+    "description": "Banana, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "oranges, raw": {
+    "foodcode": "61119010",
+    "description": "Orange, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "wheat bread, white, enriched": {
+    "foodcode": "14640004",
+    "description": "Cheese sandwich, American cheese, on wheat bread, no spread",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "cheese, mozzarella, whole milk": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 1
+  },
+  "meat, pepperoni, cured": {
+    "foodcode": "25221250",
+    "description": "Pepperoni, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "red peppers, cooked": {
+    "foodcode": "75226060",
+    "description": "Peppers, red, cooked",
+    "source": "claude",
+    "runs": 1
+  },
+  "pear juice from syrup": {
+    "foodcode": "63137140",
+    "description": "Pear, canned, in syrup",
+    "source": "claude",
+    "runs": 1
+  },
+  "hamburger bun, white": {
+    "foodcode": "51154100",
+    "description": "Roll, white, hamburger bun",
+    "source": "claude",
+    "runs": 11
+  },
+  "cream, fluid": {
+    "foodcode": "12110100",
+    "description": "Cream, light",
+    "source": "claude",
+    "runs": 1
+  },
+  "garlic, dehydrated": {
+    "foodcode": "75111500",
+    "description": "Garlic, raw",
+    "source": "proxy",
+    "runs": 21
+  },
+  "cheese, mozzarella": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 22
+  },
+  "sweet potatoes, baked": {
+    "foodcode": "73402010",
+    "description": "Sweet potato, baked, peel eaten, no added fat",
+    "source": "proxy",
+    "runs": 1
+  },
+  "beans, navy, cooked": {
+    "foodcode": "41100990",
+    "description": "Beans, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "bread, white, sliced": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 6
+  },
+  "salsa, canned": {
+    "foodcode": "58101820",
+    "description": "Mexican casserole made with ground beef, beans, tomato sauce, cheese, taco seasonings, and corn chips",
+    "source": "proxy",
+    "runs": 1
+  },
+  "chicken, ground, cooked": {
+    "foodcode": "24198720",
+    "description": "Chicken, ground",
+    "source": "claude",
+    "runs": 5
+  },
+  "modified corn starch": {
+    "foodcode": "28150510",
+    "description": "Fish in lemon-butter sauce with starch item, vegetable, frozen meal",
+    "source": "claude",
+    "runs": 7
+  },
+  "ranch dip or dressing": {
+    "foodcode": "12350230",
+    "description": "Ranch dip, regular",
+    "source": "claude",
+    "runs": 1
+  },
+  "vegetable oil, for frying": {
+    "foodcode": "82101000",
+    "description": "Vegetable oil, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "corn meal": {
+    "foodcode": "56201516",
+    "description": "Cornmeal mush, no added fat",
+    "source": "proxy",
+    "runs": 13
+  },
+  "wheat bread dough, baked": {
+    "foodcode": "51301010",
+    "description": "Bread, wheat or cracked wheat",
+    "source": "claude",
+    "runs": 5
+  },
+  "tomato juice, canned": {
+    "foodcode": "74301100",
+    "description": "Tomato juice, 100%",
+    "source": "claude",
+    "runs": 1
+  },
+  "milk, fluid whole": {
+    "foodcode": "11000000",
+    "description": "Milk, human",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "cream, heavy": {
+    "foodcode": "12130100",
+    "description": "Cream, heavy",
+    "source": "claude",
+    "runs": 1
+  },
+  "tortilla, corn, fried": {
+    "foodcode": "52215100",
+    "description": "Tortilla, corn",
+    "source": "claude",
+    "runs": 1
+  },
+  "wheat flour, white, enriched": {
+    "foodcode": "53420310",
+    "description": "Wheat flour fritter, without syrup",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "cheese, mozzarella, low moisture": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 5
+  },
+  "meat, pepperoni, cooked": {
+    "foodcode": "25221250",
+    "description": "Pepperoni, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "peach syrup": {
+    "foodcode": "91301080",
+    "description": "Chocolate syrup",
+    "source": "claude",
+    "runs": 1
+  },
+  "wheat noodles, dry": {
+    "foodcode": "56116000",
+    "description": "Noodles, chow mein",
+    "source": "claude",
+    "runs": 4
+  },
+  "vegetables, mixed (peppers, onions), raw": {
+    "foodcode": "75306998",
+    "description": "Peppers and onions, cooked, no added fat",
+    "source": "proxy",
+    "runs": 1
+  },
+  "chicken breast, breaded and fried": {
+    "foodcode": "24100000",
+    "description": "Chicken, NS as to part and cooking method, NS as to skin eaten",
+    "source": "proxy",
+    "runs": 41
+  },
+  "pizza dough, cooked": {
+    "foodcode": "58106220",
+    "description": "Pizza, cheese, from restaurant or fast food, thin crust",
+    "source": "proxy",
+    "runs": 1
+  },
+  "lettuce, raw, green leaf": {
+    "foodcode": "72116000",
+    "description": "Lettuce, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "soy protein concentrate": {
+    "foodcode": "95230010",
+    "description": "Nutritional powder mix, protein, soy based, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "vegetable oil, salad dressing": {
+    "foodcode": "82101000",
+    "description": "Vegetable oil, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "mozzarella cheese, low-moisture": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 1
+  },
+  "beans, baked, canned": {
+    "foodcode": "41201010",
+    "description": "Baked beans",
+    "source": "claude",
+    "runs": 11
+  },
+  "wheat noodles, dried": {
+    "foodcode": "56116000",
+    "description": "Noodles, chow mein",
+    "source": "claude",
+    "runs": 1
+  },
+  "buttermilk, cultured": {
+    "foodcode": "11115000",
+    "description": "Buttermilk",
+    "source": "claude",
+    "runs": 1
+  },
+  "ranch dip, commercial": {
+    "foodcode": "12350230",
+    "description": "Ranch dip, regular",
+    "source": "claude",
+    "runs": 1
+  },
+  "pizza dough, baked": {
+    "foodcode": "14620300",
+    "description": "Topping from cheese pizza",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "beans, pinto, canned": {
+    "foodcode": "41100990",
+    "description": "Beans, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "peach juice, from canned fruit": {
+    "foodcode": "63135170",
+    "description": "Peach, canned, juice pack",
+    "source": "claude",
+    "runs": 1
+  },
+  "corn taco shells, baked": {
+    "foodcode": "52215300",
+    "description": "Taco shell, corn",
+    "source": "claude",
+    "runs": 1
+  },
+  "pork, cooked": {
+    "foodcode": "22704010",
+    "description": "Pork, cracklings",
+    "source": "claude",
+    "runs": 2
+  },
+  "buttermilk, liquid": {
+    "foodcode": "11115000",
+    "description": "Buttermilk",
+    "source": "claude",
+    "runs": 6
+  },
+  "vegetable oil, used for frying": {
+    "foodcode": "82101000",
+    "description": "Vegetable oil, NFS",
+    "source": "proxy",
+    "runs": 6
+  },
+  "noodles, wheat, cooked": {
+    "foodcode": "56112000",
+    "description": "Noodles, cooked",
+    "source": "claude",
+    "runs": 6
+  },
+  "tortilla, corn": {
+    "foodcode": "52215100",
+    "description": "Tortilla, corn",
+    "source": "claude",
+    "runs": 3
+  },
+  "cheddar cheese sauce, prepared": {
+    "foodcode": "14650100",
+    "description": "Cheese sauce",
+    "source": "claude",
+    "runs": 4
+  },
+  "salsa, prepared": {
+    "foodcode": "58100360",
+    "description": "Chilaquiles, tortilla casserole with salsa, cheese, and egg",
+    "source": "fuzzy",
+    "runs": 4
+  },
+  "corn syrup solids": {
+    "foodcode": "91301030",
+    "description": "Corn syrup",
+    "source": "claude",
+    "runs": 3
+  },
+  "corn tortilla chips, baked": {
+    "foodcode": "54401075",
+    "description": "Tortilla chips, plain",
+    "source": "claude",
+    "runs": 5
+  },
+  "corn meal, yellow": {
+    "foodcode": "56201516",
+    "description": "Cornmeal mush, no added fat",
+    "source": "proxy",
+    "runs": 5
+  },
+  "applesauce, unsweetened, canned": {
+    "foodcode": "63101120",
+    "description": "Applesauce, unsweetened",
+    "source": "proxy",
+    "runs": 2
+  },
+  "chickpeas, cooked": {
+    "foodcode": "41302020",
+    "description": "Chickpeas, from dried, no added fat",
+    "source": "claude",
+    "runs": 2
+  },
+  "whole grain wheat flour": {
+    "foodcode": "51301750",
+    "description": "Bagel, whole wheat",
+    "source": "claude",
+    "runs": 5
+  },
+  "yeast": {
+    "foodcode": "51165000",
+    "description": "Yeast",
+    "source": "claude",
+    "runs": 3
+  },
+  "jicama, raw": {
+    "foodcode": "75111800",
+    "description": "Jicama, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "cornmeal, yellow": {
+    "foodcode": "56201516",
+    "description": "Cornmeal mush, no added fat",
+    "source": "proxy",
+    "runs": 6
+  },
+  "cantaloupe, raw": {
+    "foodcode": "63109010",
+    "description": "Cantaloupe, raw",
+    "source": "claude",
+    "runs": 3
+  },
+  "pasta, whole wheat, cooked": {
+    "foodcode": "56130000",
+    "description": "Pasta, cooked",
+    "source": "claude",
+    "runs": 2
+  },
+  "cheese, ricotta": {
+    "foodcode": "14201500",
+    "description": "Cheese, Ricotta",
+    "source": "proxy",
+    "runs": 2
+  },
+  "tomato sauce, marinara": {
+    "foodcode": "58131520",
+    "description": "Ravioli, cheese-filled, with tomato sauce",
+    "source": "proxy",
+    "runs": 2
+  },
+  "wheat bread, white": {
+    "foodcode": "14640004",
+    "description": "Cheese sandwich, American cheese, on wheat bread, no spread",
+    "source": "proxy",
+    "runs": 5
+  },
+  "mixed greens, raw": {
+    "foodcode": "75114000",
+    "description": "Mixed salad greens, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "cornbread, baked": {
+    "foodcode": "52202060",
+    "description": "Cornbread, made from home recipe",
+    "source": "claude",
+    "runs": 8
+  },
+  "bun, white bread": {
+    "foodcode": "51154100",
+    "description": "Roll, white, hamburger bun",
+    "source": "claude",
+    "runs": 2
+  },
+  "corn masa, cooked": {
+    "foodcode": "56201600",
+    "description": "Masa harina, cooked",
+    "source": "claude",
+    "runs": 3
+  },
+  "turkey beef pepperoni, sliced": {
+    "foodcode": "25221250",
+    "description": "Pepperoni, NFS",
+    "source": "claude",
+    "runs": 2
+  },
+  "chickpeas, canned, drained": {
+    "foodcode": "41302080",
+    "description": "Chickpeas, from canned, no added fat",
+    "source": "claude",
+    "runs": 3
+  },
+  "lemon juice, fresh": {
+    "foodcode": "61204010",
+    "description": "Lemon juice, 100%, freshly squeezed",
+    "source": "claude",
+    "runs": 3
+  },
+  "bread, whole wheat, white": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 3
+  },
+  "yogurt, greek, plain, whole milk": {
+    "foodcode": "11400000",
+    "description": "Yogurt, NFS",
+    "source": "claude",
+    "runs": 3
+  },
+  "milk solids, non-fat": {
+    "foodcode": "11113000",
+    "description": "Milk, fat free (skim)",
+    "source": "proxy",
+    "runs": 3
+  },
+  "turkey breast, roasted": {
+    "foodcode": "24201120",
+    "description": "Turkey, light meat, roasted, skin not eaten",
+    "source": "proxy",
+    "runs": 4
+  },
+  "blue cheese dressing": {
+    "foodcode": "83101000",
+    "description": "Blue or roquefort cheese dressing",
+    "source": "claude",
+    "runs": 3
+  },
+  "yogurt, greek, strawberry": {
+    "foodcode": "11400000",
+    "description": "Yogurt, NFS",
+    "source": "claude",
+    "runs": 3
+  },
+  "milk, nonfat": {
+    "foodcode": "11113000",
+    "description": "Milk, fat free (skim)",
+    "source": "proxy",
+    "runs": 3
+  },
+  "whole milk": {
+    "foodcode": "11111000",
+    "description": "Milk, whole",
+    "source": "proxy",
+    "runs": 3
+  },
+  "bread crumbs, whole grain": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 3
+  },
+  "chocolate chips": {
+    "foodcode": "53226550",
+    "description": "Chocolate chips",
+    "source": "claude",
+    "runs": 3
+  },
+  "pinto beans, canned, drained": {
+    "foodcode": "41103990",
+    "description": "Pinto beans, NFS",
+    "source": "fuzzy",
+    "runs": 3
+  },
+  "wheat bread, whole grain": {
+    "foodcode": "14640004",
+    "description": "Cheese sandwich, American cheese, on wheat bread, no spread",
+    "source": "fuzzy",
+    "runs": 3
+  },
+  "pepperoni, turkey": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "proxy",
+    "runs": 3
+  },
+  "oats, rolled dry": {
+    "foodcode": "57602100",
+    "description": "Oats, raw",
+    "source": "claude",
+    "runs": 2
+  },
+  "raisins, dried": {
+    "foodcode": "51161280",
+    "description": "Raisins",
+    "source": "claude",
+    "runs": 2
+  },
+  "parsley, dehydrated": {
+    "foodcode": "75119000",
+    "description": "Parsley, raw",
+    "source": "claude",
+    "runs": 20
+  },
+  "vegetables, mixed (peppers, onions, mushrooms)": {
+    "foodcode": "75311020",
+    "description": "Classic mixed vegetables, NS as to form, cooked",
+    "source": "proxy",
+    "runs": 13
+  },
+  "taco shell, baked": {
+    "foodcode": "52215300",
+    "description": "Taco shell, corn",
+    "source": "claude",
+    "runs": 5
+  },
+  "applesauce, canned": {
+    "foodcode": "63101110",
+    "description": "Applesauce, regular",
+    "source": "proxy",
+    "runs": 8
+  },
+  "pretzel bread, toasted": {
+    "foodcode": "54408400",
+    "description": "Pretzels, soft, NFS",
+    "source": "claude",
+    "runs": 5
+  },
+  "cheese, processed": {
+    "foodcode": "14010000",
+    "description": "Cheese, NFS",
+    "source": "proxy",
+    "runs": 6
+  },
+  "peppers, bell, cooked": {
+    "foodcode": "75226020",
+    "description": "Peppers, green, cooked",
+    "source": "claude",
+    "runs": 2
+  },
+  "syrup, corn": {
+    "foodcode": "11513400",
+    "description": "Chocolate milk, made from syrup, NS as to type of milk",
+    "source": "fuzzy",
+    "runs": 8
+  },
+  "bread, white, cooked": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 10
+  },
+  "yogurt, vanilla, low-fat": {
+    "foodcode": "11400000",
+    "description": "Yogurt, NFS",
+    "source": "claude",
+    "runs": 8
+  },
+  "corn chips": {
+    "foodcode": "54401075",
+    "description": "Tortilla chips, plain",
+    "source": "proxy",
+    "runs": 9
+  },
+  "green beans, cooked": {
+    "foodcode": "75101800",
+    "description": "Green beans, raw",
+    "source": "fuzzy",
+    "runs": 6
+  },
+  "parmesan cheese, hard": {
+    "foodcode": "14104100",
+    "description": "Cheese, Cheddar",
+    "source": "proxy",
+    "runs": 2
+  },
+  "caesar dressing": {
+    "foodcode": "83102000",
+    "description": "Caesar dressing",
+    "source": "claude",
+    "runs": 3
+  },
+  "cheese, provolone": {
+    "foodcode": "14104200",
+    "description": "Cheese, Colby",
+    "source": "proxy",
+    "runs": 1
+  },
+  "sunflower seed butter": {
+    "foodcode": "43102000",
+    "description": "Sunflower seeds, plain, unsalted",
+    "source": "proxy",
+    "runs": 2
+  },
+  "grape jelly": {
+    "foodcode": "42203000",
+    "description": "Jelly",
+    "source": "claude",
+    "runs": 1
+  },
+  "blueberries, raw": {
+    "foodcode": "63203010",
+    "description": "Blueberries, raw",
+    "source": "proxy",
+    "runs": 8
+  },
+  "granola": {
+    "foodcode": "42502100",
+    "description": "Trail mix with pretzels, cereal, or granola",
+    "source": "fuzzy",
+    "runs": 3
+  },
+  "whole wheat flour tortilla": {
+    "foodcode": "52215260",
+    "description": "Tortilla, whole wheat",
+    "source": "claude",
+    "runs": 1
+  },
+  "imitation crab, raw": {
+    "foodcode": "26305180",
+    "description": "Crab, canned",
+    "source": "proxy",
+    "runs": 1
+  },
+  "avocado, raw": {
+    "foodcode": "63105010",
+    "description": "Avocado, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "nori (seaweed), dried": {
+    "foodcode": "75232000",
+    "description": "Seaweed, dried",
+    "source": "claude",
+    "runs": 1
+  },
+  "turkey bacon, cooked": {
+    "foodcode": "24208500",
+    "description": "Turkey bacon, cooked",
+    "source": "claude",
+    "runs": 1
+  },
+  "tortilla chips, fried": {
+    "foodcode": "54401075",
+    "description": "Tortilla chips, plain",
+    "source": "proxy",
+    "runs": 2
+  },
+  "jalapeño peppers": {
+    "foodcode": "75226020",
+    "description": "Peppers, green, cooked",
+    "source": "claude",
+    "runs": 1
+  },
+  "dinner roll, wheat": {
+    "foodcode": "28101000",
+    "description": "Frozen dinner, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "tortilla chips, baked": {
+    "foodcode": "54401121",
+    "description": "Tortilla chips, reduced fat, plain",
+    "source": "proxy",
+    "runs": 2
+  },
+  "turkey, sliced, cooked": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "bagel, plain": {
+    "foodcode": "32202025",
+    "description": "Bagel",
+    "source": "claude",
+    "runs": 1
+  },
+  "jelly": {
+    "foodcode": "42203000",
+    "description": "Jelly",
+    "source": "claude",
+    "runs": 2
+  },
+  "yogurt, greek, plain": {
+    "foodcode": "11436000",
+    "description": "Yogurt, liquid",
+    "source": "claude",
+    "runs": 1
+  },
+  "berries, mixed, raw": {
+    "foodcode": "63200100",
+    "description": "Berries, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "pesto sauce": {
+    "foodcode": "81302070",
+    "description": "Pesto sauce",
+    "source": "claude",
+    "runs": 1
+  },
+  "mixed fruit, raw": {
+    "foodcode": "53344200",
+    "description": "Mixed fruit tart filled with custard or cream cheese",
+    "source": "fuzzy",
+    "runs": 2
+  },
+  "beef, ground, cooked": {
+    "foodcode": "27416200",
+    "description": "Beef, ground",
+    "source": "claude",
+    "runs": 2
+  },
+  "turkey, cooked": {
+    "foodcode": "24201000",
+    "description": "Turkey, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "pepperoni, cooked": {
+    "foodcode": "25221250",
+    "description": "Pepperoni, NFS",
+    "source": "proxy",
+    "runs": 2
+  },
+  "flour tortilla, plain": {
+    "foodcode": "52215200",
+    "description": "Tortilla, flour",
+    "source": "claude",
+    "runs": 1
+  },
+  "salad dressing": {
+    "foodcode": "83100100",
+    "description": "Salad dressing, NFS, for salads",
+    "source": "claude",
+    "runs": 1
+  },
+  "tahini": {
+    "foodcode": "43103300",
+    "description": "Tahini",
+    "source": "claude",
+    "runs": 1
+  },
+  "pita chips": {
+    "foodcode": "54402700",
+    "description": "Pita chips",
+    "source": "claude",
+    "runs": 1
+  },
+  "spinach, raw": {
+    "foodcode": "11440050",
+    "description": "Spinach dip, yogurt based",
+    "source": "fuzzy",
+    "runs": 2
+  },
+  "soy protein isolate, cooked": {
+    "foodcode": "95230010",
+    "description": "Nutritional powder mix, protein, soy based, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "crackers, wheat": {
+    "foodcode": "54001000",
+    "description": "Crackers, NFS",
+    "source": "proxy",
+    "runs": 8
+  },
+  "dumpling wrapper, cooked": {
+    "foodcode": "55610300",
+    "description": "Dumpling, plain",
+    "source": "proxy",
+    "runs": 1
+  },
+  "mushrooms, cooked": {
+    "foodcode": "75414030",
+    "description": "Fried mushrooms",
+    "source": "claude",
+    "runs": 1
+  },
+  "teriyaki sauce": {
+    "foodcode": "41420400",
+    "description": "Teriyaki sauce",
+    "source": "claude",
+    "runs": 8
+  },
+  "apricots, raw": {
+    "foodcode": "63103010",
+    "description": "Apricot, raw",
+    "source": "claude",
+    "runs": 8
+  },
+  "milk, 1% fat, fluid": {
+    "foodcode": "11112210",
+    "description": "Milk, low fat (1%)",
+    "source": "proxy",
+    "runs": 9
+  },
+  "milk, nonfat, fluid": {
+    "foodcode": "11113000",
+    "description": "Milk, fat free (skim)",
+    "source": "proxy",
+    "runs": 9
+  },
+  "cream": {
+    "foodcode": "12130100",
+    "description": "Cream, heavy",
+    "source": "claude",
+    "runs": 6
+  },
+  "chicken drumstick, cooked": {
+    "foodcode": "24144300",
+    "description": "Chicken drumstick, sauteed, skin eaten",
+    "source": "claude",
+    "runs": 6
+  },
+  "masa flour, cooked": {
+    "foodcode": "56201600",
+    "description": "Masa harina, cooked",
+    "source": "claude",
+    "runs": 6
+  },
+  "beans, cooked": {
+    "foodcode": "41100990",
+    "description": "Beans, NFS",
+    "source": "claude",
+    "runs": 7
+  },
+  "sausage, chicken, cooked": {
+    "foodcode": "25221830",
+    "description": "Turkey or chicken sausage",
+    "source": "proxy",
+    "runs": 6
+  },
+  "cheese, cheddar, string": {
+    "foodcode": "14104100",
+    "description": "Cheese, Cheddar",
+    "source": "proxy",
+    "runs": 6
+  },
+  "beef hot dog": {
+    "foodcode": "25210210",
+    "description": "Hot dog, beef",
+    "source": "claude",
+    "runs": 6
+  },
+  "hot dog bun, white enriched": {
+    "foodcode": "51154010",
+    "description": "Roll, white, hot dog bun",
+    "source": "claude",
+    "runs": 6
+  },
+  "grapes, green, raw": {
+    "foodcode": "63123000",
+    "description": "Grapes, raw",
+    "source": "claude",
+    "runs": 6
+  },
+  "apple, fuji, raw": {
+    "foodcode": "63101000",
+    "description": "Apple, raw",
+    "source": "claude",
+    "runs": 6
+  },
+  "plums, raw": {
+    "foodcode": "63143010",
+    "description": "Plum, raw",
+    "source": "claude",
+    "runs": 6
+  },
+  "tomatoes, cherry, raw": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 6
+  },
+  "cauliflower, raw": {
+    "foodcode": "75107000",
+    "description": "Cauliflower, raw",
+    "source": "proxy",
+    "runs": 6
+  },
+  "meatballs, cooked beef": {
+    "foodcode": "21000110",
+    "description": "Beef, NS as to cut, cooked, lean and fat eaten",
+    "source": "proxy",
+    "runs": 1
+  },
+  "bread, white submarine roll": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "tomatoes, canned": {
+    "foodcode": "74101000",
+    "description": "Tomatoes, raw",
+    "source": "claude",
+    "runs": 3
+  },
+  "milk, reduced fat, fluid": {
+    "foodcode": "11112110",
+    "description": "Milk, reduced fat (2%)",
+    "source": "proxy",
+    "runs": 1
+  },
+  "cocoa, powder": {
+    "foodcode": "11830150",
+    "description": "Cocoa powder, not reconstituted",
+    "source": "claude",
+    "runs": 1
+  },
+  "milk, lactose-free, fluid": {
+    "foodcode": "11100000",
+    "description": "Milk, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "yogurt, vanilla, lowfat": {
+    "foodcode": "11400000",
+    "description": "Yogurt, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "berries, mixed, fresh": {
+    "foodcode": "63200100",
+    "description": "Berries, NFS",
+    "source": "claude",
+    "runs": 1
+  },
+  "kale, raw": {
+    "foodcode": "72119190",
+    "description": "Kale, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "jalapeños, raw": {
+    "foodcode": "75226111",
+    "description": "Hot peppers, cooked",
+    "source": "proxy",
+    "runs": 1
+  },
+  "beef, cooked": {
+    "foodcode": "27111200",
+    "description": "Beef burgundy",
+    "source": "claude",
+    "runs": 1
+  },
+  "chili, canned": {
+    "foodcode": "27111407",
+    "description": "Chili con carne with beans, canned",
+    "source": "proxy",
+    "runs": 1
+  },
+  "beans, refried, canned": {
+    "foodcode": "41205010",
+    "description": "Refried beans",
+    "source": "claude",
+    "runs": 1
+  },
+  "corn flour, yellow": {
+    "foodcode": "52207010",
+    "description": "Corn flour patty or tart, fried",
+    "source": "claude",
+    "runs": 1
+  },
+  "frank, beef": {
+    "foodcode": "41206030",
+    "description": "Beans and franks",
+    "source": "claude",
+    "runs": 1
+  },
+  "sausage, cooked": {
+    "foodcode": "25221405",
+    "description": "Pork sausage",
+    "source": "claude",
+    "runs": 1
+  },
+  "peaches, canned in light syrup, chilled": {
+    "foodcode": "63135010",
+    "description": "Peach, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "pepper jack cheese": {
+    "foodcode": "14104250",
+    "description": "Cheese, Colby Jack",
+    "source": "proxy",
+    "runs": 1
+  },
+  "pizza crust, cooked": {
+    "foodcode": "58106205",
+    "description": "Pizza, cheese, from frozen, thick crust",
+    "source": "proxy",
+    "runs": 1
+  },
+  "cheese, mozzarella, part skim": {
+    "foodcode": "14670000",
+    "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+    "source": "proxy",
+    "runs": 1
+  },
+  "pork, sausage, cooked": {
+    "foodcode": "25221405",
+    "description": "Pork sausage",
+    "source": "proxy",
+    "runs": 1
+  },
+  "ham, cured, cooked": {
+    "foodcode": "22311000",
+    "description": "Ham, smoked or cured, cooked, NS as to fat eaten",
+    "source": "proxy",
+    "runs": 1
+  },
+  "granola, dry": {
+    "foodcode": "42502100",
+    "description": "Trail mix with pretzels, cereal, or granola",
+    "source": "proxy",
+    "runs": 1
+  },
+  "whipped topping": {
+    "foodcode": "12220200",
+    "description": "Whipped topping",
+    "source": "claude",
+    "runs": 1
+  },
+  "spinach, cooked": {
+    "foodcode": "11440050",
+    "description": "Spinach dip, yogurt based",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "bread, hamburger bun": {
+    "foodcode": "51154100",
+    "description": "Roll, white, hamburger bun",
+    "source": "proxy",
+    "runs": 1
+  },
+  "tortilla, flour": {
+    "foodcode": "52215200",
+    "description": "Tortilla, flour",
+    "source": "claude",
+    "runs": 1
+  },
+  "fruit juice blend, frozen": {
+    "foodcode": "64100110",
+    "description": "Fruit juice blend, 100% juice",
+    "source": "claude",
+    "runs": 1
+  },
+  "bread, wheat": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "raspberries, raw": {
+    "foodcode": "63219000",
+    "description": "Raspberries, raw",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "cheese product, processed": {
+    "foodcode": "14010000",
+    "description": "Cheese, NFS",
+    "source": "proxy",
+    "runs": 1
+  },
+  "corn meal, enriched": {
+    "foodcode": "56201516",
+    "description": "Cornmeal mush, no added fat",
+    "source": "proxy",
+    "runs": 1
+  },
+  "bread, white, sandwich": {
+    "foodcode": "13210110",
+    "description": "Pudding, bread",
+    "source": "fuzzy",
+    "runs": 1
+  },
+  "cheese, cheddar, grated": {
+    "foodcode": "14104100",
+    "description": "Cheese, Cheddar",
+    "source": "proxy",
+    "runs": 1
+  },
+  "chicken wings, cooked": {
+    "foodcode": "24164200",
+    "description": "Chicken wing, sauteed",
+    "source": "claude",
+    "runs": 1
+  },
+  "apple, red delicious, raw": {
+    "foodcode": "63101000",
+    "description": "Apple, raw",
+    "source": "claude",
+    "runs": 1
+  },
+  "spaghetti pasta, cooked": {
+    "foodcode": "56130000",
+    "description": "Pasta, cooked",
+    "source": "proxy",
+    "runs": 1
+  },
+  "tortilla, wheat": {
+    "foodcode": "52215260",
+    "description": "Tortilla, whole wheat",
+    "source": "claude",
+    "runs": 1
+  },
+  "fruit juice blend": {
+    "foodcode": "64100110",
+    "description": "Fruit juice blend, 100% juice",
+    "source": "claude",
+    "runs": 1
+  },
+  "vegetable juice": {
+    "foodcode": "75132000",
+    "description": "Mixed vegetable juice",
+    "source": "claude",
+    "runs": 1
+  },
+  "beef frank, cooked": {
+    "foodcode": "25210210",
+    "description": "Frankfurter or hot dog, beef",
+    "source": "proxy",
+    "runs": 1
+  },
+  "chili, beef, cooked": {
+    "foodcode": "21000110",
+    "description": "Beef, NS as to cut, cooked, lean and fat eaten",
+    "source": "proxy",
+    "runs": 1
+  },
+  "croissant, baked": {
+    "foodcode": "51166000",
+    "description": "Croissant",
+    "source": "claude",
+    "runs": 1
+  },
+  "flour tortilla, cooked": {
+    "foodcode": "52215200",
+    "description": "Tortilla, flour",
+    "source": "claude",
+    "runs": 1
+  },
+  "coconut, shredded": {
+    "foodcode": "42106020",
+    "description": "Coconut, packaged",
+    "source": "claude",
+    "runs": 1
+  },
+  "maraschino cherries": {
+    "foodcode": "63113030",
+    "description": "Cherry pie filling",
+    "source": "proxy",
+    "runs": 1
+  },
+  "peaches, frozen": {
+    "foodcode": "63135620",
+    "description": "Peach, frozen",
+    "source": "claude",
+    "runs": 1
+  },
+  "apricots, canned in light syrup": {
+    "foodcode": "63103110",
+    "description": "Apricot, canned",
+    "source": "claude",
+    "runs": 1
+  }
+}

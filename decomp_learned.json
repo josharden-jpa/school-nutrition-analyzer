@@ -1,0 +1,3744 @@
+{
+  "ranch dressing": [
+    {
+      "name": "mayonnaise",
+      "grams": 30
+    },
+    {
+      "name": "buttermilk",
+      "grams": 15
+    },
+    {
+      "name": "sour cream",
+      "grams": 15
+    },
+    {
+      "name": "onion, dehydrated",
+      "grams": 1
+    },
+    {
+      "name": "garlic, dehydrated",
+      "grams": 0.5
+    },
+    {
+      "name": "parsley, dehydrated",
+      "grams": 0.5
+    }
+  ],
+  "crunchy baby carrots": [
+    {
+      "name": "carrots, raw",
+      "grams": 85
+    }
+  ],
+  "crunchy raw veggie cup": [
+    {
+      "name": "carrots, raw",
+      "grams": 60
+    },
+    {
+      "name": "celery, raw",
+      "grams": 40
+    },
+    {
+      "name": "cucumber, raw",
+      "grams": 50
+    }
+  ],
+  "fresh romaine salad": [
+    {
+      "name": "romaine lettuce, raw",
+      "grams": 85
+    }
+  ],
+  "roasted broccoli": [
+    {
+      "name": "broccoli, cooked",
+      "grams": 85
+    }
+  ],
+  "sweet potato fries": [
+    {
+      "name": "sweet potato, baked",
+      "grams": 100
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "homemade pizza": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 100
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 45
+    },
+    {
+      "name": "mozzarella cheese",
+      "grams": 30
+    },
+    {
+      "name": "vegetables, mixed (peppers, onions, mushrooms)",
+      "grams": 25
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "steamed green beans": [
+    {
+      "name": "green beans, cooked",
+      "grams": 100
+    }
+  ],
+  "general tso chicken": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    },
+    {
+      "name": "soy sauce",
+      "grams": 8
+    },
+    {
+      "name": "sugar",
+      "grams": 6
+    },
+    {
+      "name": "rice, cooked",
+      "grams": 100
+    }
+  ],
+  "edamame": [
+    {
+      "name": "edamame, cooked",
+      "grams": 95
+    }
+  ],
+  "cucumber slices": [
+    {
+      "name": "cucumber, raw",
+      "grams": 100
+    }
+  ],
+  "crispy chicken smackers": [
+    {
+      "name": "chicken breast, breaded and fried",
+      "grams": 55
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 12
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "bbq sauce": [
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "high fructose corn syrup",
+      "grams": 8
+    },
+    {
+      "name": "vinegar",
+      "grams": 3
+    },
+    {
+      "name": "molasses",
+      "grams": 2
+    }
+  ],
+  "vegetables blend stir fry": [
+    {
+      "name": "broccoli, cooked",
+      "grams": 75
+    },
+    {
+      "name": "carrots, cooked",
+      "grams": 50
+    },
+    {
+      "name": "snap peas, cooked",
+      "grams": 40
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "garlic knot": [
+    {
+      "name": "wheat bread dough, baked",
+      "grams": 45
+    },
+    {
+      "name": "garlic, cooked",
+      "grams": 3
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "seasoned potato wedges": [
+    {
+      "name": "potatoes, raw",
+      "grams": 100
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "chilled diced pears": [
+    {
+      "name": "pears, canned in light syrup, drained",
+      "grams": 100
+    }
+  ],
+  "vegetable fried rice": [
+    {
+      "name": "rice, cooked",
+      "grams": 100
+    },
+    {
+      "name": "carrots, cooked",
+      "grams": 30
+    },
+    {
+      "name": "peas, cooked",
+      "grams": 25
+    },
+    {
+      "name": "eggs, cooked",
+      "grams": 30
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "lo mein": [
+    {
+      "name": "noodles, wheat, cooked",
+      "grams": 100
+    },
+    {
+      "name": "chicken, cooked",
+      "grams": 40
+    },
+    {
+      "name": "cabbage, cooked",
+      "grams": 30
+    },
+    {
+      "name": "carrots, cooked",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    },
+    {
+      "name": "soy sauce",
+      "grams": 8
+    }
+  ],
+  "nacho taco": [
+    {
+      "name": "ground beef, cooked",
+      "grams": 60
+    },
+    {
+      "name": "taco shell, baked",
+      "grams": 20
+    },
+    {
+      "name": "cheddar cheese, shredded",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 15
+    },
+    {
+      "name": "sour cream",
+      "grams": 15
+    }
+  ],
+  "hamburger on a bun": [
+    {
+      "name": "beef patty, cooked",
+      "grams": 55
+    },
+    {
+      "name": "hamburger bun",
+      "grams": 43
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 15
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 10
+    },
+    {
+      "name": "onion, raw",
+      "grams": 8
+    }
+  ],
+  "vegetable egg roll": [
+    {
+      "name": "egg roll wrapper, cooked",
+      "grams": 30
+    },
+    {
+      "name": "cabbage, cooked",
+      "grams": 45
+    },
+    {
+      "name": "carrots, cooked",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "chilled applesauce cup": [
+    {
+      "name": "applesauce, canned",
+      "grams": 113
+    }
+  ],
+  "toasted cheese pretzelwich": [
+    {
+      "name": "pretzel bread, toasted",
+      "grams": 45
+    },
+    {
+      "name": "cheese, processed",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "campbell's tomato soup": [
+    {
+      "name": "tomato sauce, canned",
+      "grams": 200
+    },
+    {
+      "name": "water",
+      "grams": 120
+    },
+    {
+      "name": "milk",
+      "grams": 60
+    }
+  ],
+  "veggie egg roll": [
+    {
+      "name": "wheat flour, enriched",
+      "grams": 20
+    },
+    {
+      "name": "cabbage, cooked",
+      "grams": 45
+    },
+    {
+      "name": "carrots, cooked",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "charro beans": [
+    {
+      "name": "beans, pinto, cooked",
+      "grams": 100
+    },
+    {
+      "name": "bacon, cooked",
+      "grams": 20
+    },
+    {
+      "name": "onions, cooked",
+      "grams": 30
+    },
+    {
+      "name": "peppers, bell, cooked",
+      "grams": 20
+    },
+    {
+      "name": "tomatoes, canned",
+      "grams": 25
+    }
+  ],
+  "chilled diced peaches": [
+    {
+      "name": "peaches, canned in light syrup, drained",
+      "grams": 120
+    }
+  ],
+  "steamed broccoli": [
+    {
+      "name": "broccoli, cooked",
+      "grams": 90
+    }
+  ],
+  "crispy tater tots": [
+    {
+      "name": "potatoes, raw",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "syrup": [
+    {
+      "name": "syrup, corn",
+      "grams": 60
+    }
+  ],
+  "bush's baked beans": [
+    {
+      "name": "beans, baked, canned",
+      "grams": 130
+    },
+    {
+      "name": "tomato sauce",
+      "grams": 20
+    },
+    {
+      "name": "brown sugar",
+      "grams": 8
+    }
+  ],
+  "crispy chicken nuggets": [
+    {
+      "name": "chicken, cooked",
+      "grams": 85
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "crispy crinkle cut fries": [
+    {
+      "name": "potatoes, raw",
+      "grams": 100
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "mandarin orange chicken": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "mandarin oranges, canned in light syrup",
+      "grams": 95
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    },
+    {
+      "name": "cornstarch",
+      "grams": 5
+    },
+    {
+      "name": "soy sauce",
+      "grams": 3
+    }
+  ],
+  "french toast sticks": [
+    {
+      "name": "bread, white, cooked",
+      "grams": 60
+    },
+    {
+      "name": "eggs, cooked",
+      "grams": 27
+    },
+    {
+      "name": "milk, whole",
+      "grams": 30
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "steamed sweet corn": [
+    {
+      "name": "corn, yellow, cooked",
+      "grams": 90
+    }
+  ],
+  "woodles (ramen noodles)": [
+    {
+      "name": "ramen noodles, cooked",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "vanilla yogurt": [
+    {
+      "name": "yogurt, vanilla, low-fat",
+      "grams": 113
+    }
+  ],
+  "smiley potatoes": [
+    {
+      "name": "potatoes, cooked",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 7
+    }
+  ],
+  "walking taco": [
+    {
+      "name": "ground beef, cooked",
+      "grams": 85
+    },
+    {
+      "name": "corn chips",
+      "grams": 30
+    },
+    {
+      "name": "tomatoes, raw",
+      "grams": 30
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "cheddar cheese, shredded",
+      "grams": 20
+    }
+  ],
+  "cheese sauce,  shredded lettuce,  salsa": [
+    {
+      "name": "cheese sauce",
+      "grams": 60
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 30
+    },
+    {
+      "name": "salsa",
+      "grams": 30
+    }
+  ],
+  "chicken sausage patty": [
+    {
+      "name": "chicken sausage, cooked",
+      "grams": 55
+    },
+    {
+      "name": "water",
+      "grams": 5
+    }
+  ],
+  "chilled applesauce": [
+    {
+      "name": "applesauce, canned",
+      "grams": 110
+    }
+  ],
+  "chicken caesar salad": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "romaine lettuce, raw",
+      "grams": 75
+    },
+    {
+      "name": "parmesan cheese, hard",
+      "grams": 14
+    },
+    {
+      "name": "caesar dressing",
+      "grams": 28
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 10
+    }
+  ],
+  "italian hero": [
+    {
+      "name": "bread, white, enriched",
+      "grams": 85
+    },
+    {
+      "name": "ham, cured",
+      "grams": 28
+    },
+    {
+      "name": "turkey breast, roasted",
+      "grams": 28
+    },
+    {
+      "name": "cheese, provolone",
+      "grams": 21
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 25
+    }
+  ],
+  "turkey and cheese sandwich": [
+    {
+      "name": "turkey, roasted",
+      "grams": 56
+    },
+    {
+      "name": "bread, white",
+      "grams": 52
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 21
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    }
+  ],
+  "sunbutter & grape jelly sandwich": [
+    {
+      "name": "bread, white",
+      "grams": 50
+    },
+    {
+      "name": "sunflower seed butter",
+      "grams": 32
+    },
+    {
+      "name": "grape jelly",
+      "grams": 20
+    }
+  ],
+  "tuna salad sandwich": [
+    {
+      "name": "bread, white, enriched",
+      "grams": 50
+    },
+    {
+      "name": "tuna, canned in water, drained",
+      "grams": 50
+    },
+    {
+      "name": "mayonnaise",
+      "grams": 15
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    }
+  ],
+  "blueberry parfait with granola": [
+    {
+      "name": "blueberries, raw",
+      "grams": 100
+    },
+    {
+      "name": "yogurt, plain",
+      "grams": 100
+    },
+    {
+      "name": "granola",
+      "grams": 30
+    }
+  ],
+  "egg salad on whole wheat": [
+    {
+      "name": "eggs, cooked",
+      "grams": 45
+    },
+    {
+      "name": "mayonnaise",
+      "grams": 15
+    },
+    {
+      "name": "bread, whole wheat",
+      "grams": 28
+    }
+  ],
+  "whole wheat tortilla wrap": [
+    {
+      "name": "whole wheat flour tortilla",
+      "grams": 55
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 45
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 20
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 25
+    },
+    {
+      "name": "cheddar cheese",
+      "grams": 15
+    }
+  ],
+  "cheese pizza ms": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 85
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 28
+    }
+  ],
+  "pepperoni pizza": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 85
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 25
+    },
+    {
+      "name": "pepperoni, cured",
+      "grams": 15
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "cheesy french bread pizza": [
+    {
+      "name": "bread, white, enriched",
+      "grams": 85
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 25
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 40
+    },
+    {
+      "name": "pepperoni, sliced",
+      "grams": 15
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "french bread pepperoni pizza": [
+    {
+      "name": "bread, white, enriched",
+      "grams": 85
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 25
+    },
+    {
+      "name": "pepperoni, cured",
+      "grams": 15
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "california sushi roll": [
+    {
+      "name": "rice, cooked",
+      "grams": 90
+    },
+    {
+      "name": "imitation crab, raw",
+      "grams": 30
+    },
+    {
+      "name": "avocado, raw",
+      "grams": 25
+    },
+    {
+      "name": "cucumber, raw",
+      "grams": 20
+    },
+    {
+      "name": "nori (seaweed), dried",
+      "grams": 3
+    }
+  ],
+  "seasoned broccoli florets": [
+    {
+      "name": "broccoli, cooked",
+      "grams": 85
+    }
+  ],
+  "garlic bread": [
+    {
+      "name": "bread, white, enriched",
+      "grams": 50
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    },
+    {
+      "name": "garlic, fresh",
+      "grams": 2
+    }
+  ],
+  "marinated tomato & cucumber salad": [
+    {
+      "name": "tomatoes, raw",
+      "grams": 85
+    },
+    {
+      "name": "cucumber, raw",
+      "grams": 75
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 7
+    },
+    {
+      "name": "vinegar",
+      "grams": 8
+    }
+  ],
+  "steamed rice": [
+    {
+      "name": "rice, white, cooked",
+      "grams": 150
+    }
+  ],
+  "turkey bacon": [
+    {
+      "name": "turkey bacon, cooked",
+      "grams": 28
+    }
+  ],
+  "beef taco tots": [
+    {
+      "name": "beef, cooked",
+      "grams": 45
+    },
+    {
+      "name": "potatoes, cooked",
+      "grams": 85
+    },
+    {
+      "name": "cheddar cheese, shredded",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "black beans": [
+    {
+      "name": "black beans, cooked",
+      "grams": 95
+    }
+  ],
+  "jumbo crispy chicken tenders": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "lettuce & tomato side salad": [
+    {
+      "name": "lettuce, raw",
+      "grams": 85
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 75
+    }
+  ],
+  "boneless chicken wings": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "macaroni and cheese": [
+    {
+      "name": "pasta, cooked",
+      "grams": 100
+    },
+    {
+      "name": "cheddar cheese",
+      "grams": 30
+    },
+    {
+      "name": "milk",
+      "grams": 60
+    },
+    {
+      "name": "butter",
+      "grams": 10
+    }
+  ],
+  "beef macho nachos": [
+    {
+      "name": "tortilla chips, fried",
+      "grams": 60
+    },
+    {
+      "name": "ground beef, cooked",
+      "grams": 55
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 30
+    },
+    {
+      "name": "sour cream",
+      "grams": 20
+    },
+    {
+      "name": "jalape\u00f1o peppers",
+      "grams": 10
+    }
+  ],
+  "cilantro lime rice": [
+    {
+      "name": "rice, white, cooked",
+      "grams": 150
+    },
+    {
+      "name": "cilantro, raw",
+      "grams": 5
+    },
+    {
+      "name": "lime juice",
+      "grams": 10
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "salsa": [
+    {
+      "name": "tomatoes, raw",
+      "grams": 60
+    },
+    {
+      "name": "onions, raw",
+      "grams": 15
+    },
+    {
+      "name": "peppers, raw",
+      "grams": 10
+    }
+  ],
+  "chicken & vegetable dumplings with orange sauce": [
+    {
+      "name": "chicken, cooked",
+      "grams": 45
+    },
+    {
+      "name": "wheat flour",
+      "grams": 40
+    },
+    {
+      "name": "cabbage, cooked",
+      "grams": 30
+    },
+    {
+      "name": "carrots, cooked",
+      "grams": 20
+    },
+    {
+      "name": "orange sauce",
+      "grams": 30
+    }
+  ],
+  "water": [
+    {
+      "name": "water",
+      "grams": 240
+    }
+  ],
+  "fresh whole fruit": [
+    {
+      "name": "apple, raw",
+      "grams": 182
+    },
+    {
+      "name": "banana, raw",
+      "grams": 118
+    },
+    {
+      "name": "orange, raw",
+      "grams": 154
+    }
+  ],
+  "vegetable crudite": [
+    {
+      "name": "carrots, raw",
+      "grams": 40
+    },
+    {
+      "name": "celery, raw",
+      "grams": 30
+    },
+    {
+      "name": "broccoli, raw",
+      "grams": 35
+    },
+    {
+      "name": "cherry tomatoes, raw",
+      "grams": 30
+    }
+  ],
+  "popcorn chicken salad meal": [
+    {
+      "name": "chicken breast, breaded and fried",
+      "grams": 85
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 40
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 30
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    },
+    {
+      "name": "salad dressing, ranch",
+      "grams": 30
+    },
+    {
+      "name": "dinner roll, wheat",
+      "grams": 45
+    }
+  ],
+  "nachos, cheese and salsa fun lunch": [
+    {
+      "name": "tortilla chips, baked",
+      "grams": 28
+    },
+    {
+      "name": "cheese sauce",
+      "grams": 30
+    },
+    {
+      "name": "salsa",
+      "grams": 30
+    }
+  ],
+  "whole grain dinner roll": [
+    {
+      "name": "whole wheat flour",
+      "grams": 35
+    },
+    {
+      "name": "water",
+      "grams": 15
+    },
+    {
+      "name": "yeast",
+      "grams": 1
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 3
+    }
+  ],
+  "three cheese pretzel sandwich": [
+    {
+      "name": "pretzel bread, baked",
+      "grams": 60
+    },
+    {
+      "name": "cheddar cheese, processed",
+      "grams": 20
+    },
+    {
+      "name": "mozzarella cheese",
+      "grams": 15
+    },
+    {
+      "name": "american cheese, processed",
+      "grams": 10
+    }
+  ],
+  "turkey and cheese pinwheel bento box": [
+    {
+      "name": "turkey, sliced, cooked",
+      "grams": 45
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 20
+    },
+    {
+      "name": "flour tortilla",
+      "grams": 35
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    }
+  ],
+  "sunbutter & jelly bagel": [
+    {
+      "name": "bagel, plain",
+      "grams": 55
+    },
+    {
+      "name": "sunflower seed butter",
+      "grams": 32
+    },
+    {
+      "name": "jelly",
+      "grams": 20
+    }
+  ],
+  "greek yogurt parfait": [
+    {
+      "name": "yogurt, Greek, plain",
+      "grams": 150
+    },
+    {
+      "name": "granola",
+      "grams": 30
+    },
+    {
+      "name": "berries, mixed, raw",
+      "grams": 60
+    }
+  ],
+  "side caesar salad": [
+    {
+      "name": "lettuce, raw",
+      "grams": 60
+    },
+    {
+      "name": "caesar dressing",
+      "grams": 30
+    }
+  ],
+  "caesar pasta salad meal": [
+    {
+      "name": "pasta, cooked",
+      "grams": 100
+    },
+    {
+      "name": "romaine lettuce, raw",
+      "grams": 50
+    },
+    {
+      "name": "parmesan cheese",
+      "grams": 10
+    },
+    {
+      "name": "croutons",
+      "grams": 15
+    },
+    {
+      "name": "caesar dressing",
+      "grams": 30
+    }
+  ],
+  "egg salad sandwich": [
+    {
+      "name": "bread, white, enriched",
+      "grams": 52
+    },
+    {
+      "name": "eggs, cooked",
+      "grams": 45
+    },
+    {
+      "name": "mayonnaise",
+      "grams": 15
+    },
+    {
+      "name": "celery, raw",
+      "grams": 10
+    }
+  ],
+  "pesto pasta salad": [
+    {
+      "name": "pasta, cooked",
+      "grams": 80
+    },
+    {
+      "name": "pesto sauce",
+      "grams": 20
+    },
+    {
+      "name": "tomatoes, raw",
+      "grams": 40
+    },
+    {
+      "name": "mozzarella cheese",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "bagel, egg, fruit bento box": [
+    {
+      "name": "bagel, plain",
+      "grams": 55
+    },
+    {
+      "name": "egg, cooked",
+      "grams": 50
+    },
+    {
+      "name": "mixed fruit, raw",
+      "grams": 100
+    }
+  ],
+  "beef taco salad meal": [
+    {
+      "name": "beef, ground, cooked",
+      "grams": 85
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 60
+    },
+    {
+      "name": "tomatoes, raw",
+      "grams": 40
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 28
+    },
+    {
+      "name": "tortilla chips, fried",
+      "grams": 28
+    },
+    {
+      "name": "salad dressing, ranch",
+      "grams": 30
+    }
+  ],
+  "turkey cobb salad meal": [
+    {
+      "name": "turkey, cooked",
+      "grams": 60
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 85
+    },
+    {
+      "name": "egg, cooked",
+      "grams": 37
+    },
+    {
+      "name": "bacon, cooked",
+      "grams": 14
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 40
+    },
+    {
+      "name": "cheddar cheese",
+      "grams": 28
+    }
+  ],
+  "pizza fun lunch": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 80
+    },
+    {
+      "name": "tomato sauce",
+      "grams": 30
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 25
+    },
+    {
+      "name": "pepperoni, cooked",
+      "grams": 15
+    }
+  ],
+  "bbq chicken wrap": [
+    {
+      "name": "flour tortilla, plain",
+      "grams": 55
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 70
+    },
+    {
+      "name": "barbecue sauce",
+      "grams": 25
+    },
+    {
+      "name": "cheddar cheese",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    }
+  ],
+  "chicken blt salad": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 60
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 40
+    },
+    {
+      "name": "bacon, cooked",
+      "grams": 15
+    },
+    {
+      "name": "salad dressing",
+      "grams": 30
+    }
+  ],
+  "hummus & scoops fun lunch": [
+    {
+      "name": "chickpeas, canned",
+      "grams": 85
+    },
+    {
+      "name": "tahini",
+      "grams": 10
+    },
+    {
+      "name": "pita chips",
+      "grams": 28
+    },
+    {
+      "name": "carrots, raw",
+      "grams": 50
+    },
+    {
+      "name": "celery, raw",
+      "grams": 40
+    },
+    {
+      "name": "cucumber, raw",
+      "grams": 40
+    }
+  ],
+  "deep dish cheese pizza": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 90
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 40
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 45
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "deep dish pepperoni pizza": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 85
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 35
+    },
+    {
+      "name": "pepperoni, cured",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "cheese pizza": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 85
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 25
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "roast beef sandwich meal": [
+    {
+      "name": "beef, roasted",
+      "grams": 56
+    },
+    {
+      "name": "bread, white",
+      "grams": 43
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 10
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 15
+    }
+  ],
+  "spring mix salad": [
+    {
+      "name": "lettuce, raw",
+      "grams": 85
+    },
+    {
+      "name": "spinach, raw",
+      "grams": 30
+    }
+  ],
+  "chicken nuggets": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 60
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 15
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "vegan chic'n nuggets": [
+    {
+      "name": "soy protein isolate, cooked",
+      "grams": 55
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "chicken tenders with savory crackers": [
+    {
+      "name": "chicken breast, breaded and fried",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    },
+    {
+      "name": "crackers, wheat",
+      "grams": 28
+    }
+  ],
+  "teriyaki vegetarian dumplings w/ brown rice": [
+    {
+      "name": "dumpling wrapper, cooked",
+      "grams": 45
+    },
+    {
+      "name": "cabbage, cooked",
+      "grams": 30
+    },
+    {
+      "name": "mushrooms, cooked",
+      "grams": 20
+    },
+    {
+      "name": "teriyaki sauce",
+      "grams": 15
+    },
+    {
+      "name": "brown rice, cooked",
+      "grams": 100
+    }
+  ],
+  "apples, organic (c&l)": [
+    {
+      "name": "apples, raw",
+      "grams": 182
+    }
+  ],
+  "oranges sliced": [
+    {
+      "name": "oranges, raw",
+      "grams": 140
+    }
+  ],
+  "apricots, organic (c&l)": [
+    {
+      "name": "apricots, raw",
+      "grams": 140
+    }
+  ],
+  "romaine & ranch (salad bar)": [
+    {
+      "name": "romaine lettuce, raw",
+      "grams": 75
+    },
+    {
+      "name": "ranch dressing",
+      "grams": 30
+    }
+  ],
+  "baby carrots, organic": [
+    {
+      "name": "carrots, raw",
+      "grams": 85
+    }
+  ],
+  "celery sticks, organic": [
+    {
+      "name": "celery, raw",
+      "grams": 80
+    }
+  ],
+  "1% white milk": [
+    {
+      "name": "milk, 1% fat, fluid",
+      "grams": 244
+    }
+  ],
+  "nonfat white milk": [
+    {
+      "name": "milk, nonfat, fluid",
+      "grams": 240
+    }
+  ],
+  "chana masala w/ white rice": [
+    {
+      "name": "chickpeas, canned",
+      "grams": 100
+    },
+    {
+      "name": "onions, cooked",
+      "grams": 40
+    },
+    {
+      "name": "tomatoes, canned",
+      "grams": 60
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    },
+    {
+      "name": "rice, white, cooked",
+      "grams": 150
+    }
+  ],
+  "ketchup": [
+    {
+      "name": "tomatoes, canned",
+      "grams": 28
+    }
+  ],
+  "mustard": [
+    {
+      "name": "mustard, prepared",
+      "grams": 10
+    }
+  ],
+  "mandarin gold nuggets (capay valley)": [
+    {
+      "name": "mandarin oranges, canned in light syrup",
+      "grams": 113
+    }
+  ],
+  "strawberries": [
+    {
+      "name": "strawberries, raw",
+      "grams": 152
+    }
+  ],
+  "orange slices, organic": [
+    {
+      "name": "oranges, raw",
+      "grams": 140
+    }
+  ],
+  "cucumber slices, organic": [
+    {
+      "name": "cucumber, raw",
+      "grams": 90
+    }
+  ],
+  "breaded chicken filet sandwich": [
+    {
+      "name": "chicken breast, breaded and fried",
+      "grams": 85
+    },
+    {
+      "name": "bread, white",
+      "grams": 43
+    },
+    {
+      "name": "mayonnaise",
+      "grams": 15
+    }
+  ],
+  "penne alfredo": [
+    {
+      "name": "penne pasta, cooked",
+      "grams": 100
+    },
+    {
+      "name": "butter",
+      "grams": 15
+    },
+    {
+      "name": "cream",
+      "grams": 30
+    },
+    {
+      "name": "parmesan cheese",
+      "grams": 20
+    }
+  ],
+  "boneless chicken wings w/ savory crackers": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    },
+    {
+      "name": "crackers, wheat",
+      "grams": 30
+    }
+  ],
+  "bosco cheese sticks w/ marinara sauce - es": [
+    {
+      "name": "mozzarella cheese, part skim",
+      "grams": 28
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    }
+  ],
+  "barbecue sauce cup": [
+    {
+      "name": "barbecue sauce",
+      "grams": 30
+    }
+  ],
+  "bbq chicken drumstick with cornbread": [
+    {
+      "name": "chicken drumstick, cooked",
+      "grams": 75
+    },
+    {
+      "name": "barbecue sauce",
+      "grams": 30
+    },
+    {
+      "name": "cornbread, baked",
+      "grams": 60
+    }
+  ],
+  "cheese pizza slice": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 65
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 25
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "cheeseburger - halal beef": [
+    {
+      "name": "beef patty, cooked",
+      "grams": 55
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 21
+    },
+    {
+      "name": "hamburger bun",
+      "grams": 43
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    }
+  ],
+  "hamburger - halal beef": [
+    {
+      "name": "beef patty, cooked",
+      "grams": 55
+    },
+    {
+      "name": "hamburger bun, white",
+      "grams": 43
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 10
+    },
+    {
+      "name": "onion, raw",
+      "grams": 8
+    }
+  ],
+  "bean & cheese pupusa": [
+    {
+      "name": "masa flour, cooked",
+      "grams": 80
+    },
+    {
+      "name": "beans, cooked",
+      "grams": 45
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 25
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "mac & cheese": [
+    {
+      "name": "pasta, cooked",
+      "grams": 100
+    },
+    {
+      "name": "cheese sauce",
+      "grams": 60
+    },
+    {
+      "name": "milk",
+      "grams": 30
+    },
+    {
+      "name": "butter",
+      "grams": 8
+    }
+  ],
+  "french toast sticks with chicken sausage (es)": [
+    {
+      "name": "bread, white, cooked",
+      "grams": 85
+    },
+    {
+      "name": "eggs, cooked",
+      "grams": 40
+    },
+    {
+      "name": "milk, whole",
+      "grams": 30
+    },
+    {
+      "name": "sausage, chicken, cooked",
+      "grams": 55
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "french toast sticks with yogurt & string cheese (es)": [
+    {
+      "name": "bread, white, cooked",
+      "grams": 80
+    },
+    {
+      "name": "eggs, cooked",
+      "grams": 30
+    },
+    {
+      "name": "milk, whole",
+      "grams": 15
+    },
+    {
+      "name": "yogurt, plain",
+      "grams": 85
+    },
+    {
+      "name": "cheese, cheddar, string",
+      "grams": 28
+    }
+  ],
+  "chicken teriyaki w/ brown rice": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "teriyaki sauce",
+      "grams": 30
+    },
+    {
+      "name": "brown rice, cooked",
+      "grams": 140
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 7
+    }
+  ],
+  "cheese quesadilla": [
+    {
+      "name": "flour tortilla",
+      "grams": 55
+    },
+    {
+      "name": "cheddar cheese",
+      "grams": 28
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 7
+    }
+  ],
+  "apples ,  sliced": [
+    {
+      "name": "apples, raw",
+      "grams": 182
+    }
+  ],
+  "hot dog on a bun, beef pasture raised": [
+    {
+      "name": "beef hot dog",
+      "grams": 45
+    },
+    {
+      "name": "hot dog bun, white enriched",
+      "grams": 43
+    }
+  ],
+  "celery sticks": [
+    {
+      "name": "celery, raw",
+      "grams": 60
+    }
+  ],
+  "bean and cheese chalupa": [
+    {
+      "name": "masa flour, cooked",
+      "grams": 85
+    },
+    {
+      "name": "pinto beans, cooked",
+      "grams": 70
+    },
+    {
+      "name": "cheddar cheese, shredded",
+      "grams": 28
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "locally grown organic apricots": [
+    {
+      "name": "apricots, raw",
+      "grams": 140
+    }
+  ],
+  "bagged baby carrots, organic": [
+    {
+      "name": "carrots, raw",
+      "grams": 70
+    }
+  ],
+  "carrot, organic, mini-peeled (c&l)": [
+    {
+      "name": "carrots, raw",
+      "grams": 70
+    }
+  ],
+  "grapes , green , organic": [
+    {
+      "name": "grapes, green, raw",
+      "grams": 120
+    }
+  ],
+  "apple, fuji, organic": [
+    {
+      "name": "apple, fuji, raw",
+      "grams": 182
+    }
+  ],
+  "plums,  organic": [
+    {
+      "name": "plums, raw",
+      "grams": 150
+    }
+  ],
+  "peach, organic": [
+    {
+      "name": "peach, raw",
+      "grams": 150
+    }
+  ],
+  "red cherry tomatoes, organic": [
+    {
+      "name": "tomatoes, cherry, raw",
+      "grams": 150
+    }
+  ],
+  "cauliflower, florets, bulk, organic (c&l)": [
+    {
+      "name": "cauliflower, raw",
+      "grams": 100
+    }
+  ],
+  "blueberries, organic": [
+    {
+      "name": "blueberries, raw",
+      "grams": 150
+    }
+  ],
+  "grapes, organic": [
+    {
+      "name": "grapes, raw",
+      "grams": 100
+    }
+  ],
+  "chicken patty": [
+    {
+      "name": "chicken, ground, cooked",
+      "grams": 55
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 12
+    },
+    {
+      "name": "egg, whole, cooked",
+      "grams": 8
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "meatball sub": [
+    {
+      "name": "meatballs, cooked beef",
+      "grams": 85
+    },
+    {
+      "name": "bread, white submarine roll",
+      "grams": 45
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 60
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 20
+    }
+  ],
+  "1 % white milk": [
+    {
+      "name": "milk, 1% fat, fluid",
+      "grams": 244
+    }
+  ],
+  "ff chocolate milk": [
+    {
+      "name": "milk, reduced fat, fluid",
+      "grams": 237
+    },
+    {
+      "name": "cocoa, powder",
+      "grams": 18
+    },
+    {
+      "name": "sugar",
+      "grams": 21
+    }
+  ],
+  "lactose free milk": [
+    {
+      "name": "milk, lactose-free, fluid",
+      "grams": 240
+    }
+  ],
+  "plant based milk": [
+    {
+      "name": "plant-based milk beverage",
+      "grams": 240
+    }
+  ],
+  "vanilla parfait": [
+    {
+      "name": "yogurt, vanilla, lowfat",
+      "grams": 113
+    },
+    {
+      "name": "granola",
+      "grams": 28
+    },
+    {
+      "name": "berries, mixed, fresh",
+      "grams": 56
+    }
+  ],
+  "fresh banana": [
+    {
+      "name": "banana, raw",
+      "grams": 118
+    }
+  ],
+  "fresh pear": [
+    {
+      "name": "pear, raw",
+      "grams": 150
+    }
+  ],
+  "gala apple": [
+    {
+      "name": "apple, raw",
+      "grams": 182
+    }
+  ],
+  "chilled strawberries": [
+    {
+      "name": "strawberries, raw",
+      "grams": 100
+    }
+  ],
+  "watermelon": [
+    {
+      "name": "watermelon, raw",
+      "grams": 150
+    }
+  ],
+  "cantaloupe": [
+    {
+      "name": "cantaloupe, raw",
+      "grams": 140
+    }
+  ],
+  "fresh orange": [
+    {
+      "name": "orange, raw",
+      "grams": 131
+    }
+  ],
+  "fresh grapes": [
+    {
+      "name": "grapes, raw",
+      "grams": 100
+    }
+  ],
+  "cinnamon spiced applesauce": [
+    {
+      "name": "applesauce, unsweetened",
+      "grams": 120
+    }
+  ],
+  "heritage salad blend": [
+    {
+      "name": "lettuce, raw",
+      "grams": 85
+    },
+    {
+      "name": "spinach, raw",
+      "grams": 30
+    },
+    {
+      "name": "kale, raw",
+      "grams": 25
+    }
+  ],
+  "fresh broccoli bites": [
+    {
+      "name": "broccoli, raw",
+      "grams": 85
+    }
+  ],
+  "cucumber coins": [
+    {
+      "name": "cucumber, raw",
+      "grams": 100
+    }
+  ],
+  "onion strips": [
+    {
+      "name": "onions, raw",
+      "grams": 85
+    }
+  ],
+  "peaches": [
+    {
+      "name": "peaches, raw",
+      "grams": 140
+    }
+  ],
+  "queso nachos": [
+    {
+      "name": "tortilla chips, baked",
+      "grams": 60
+    },
+    {
+      "name": "cheese sauce",
+      "grams": 45
+    },
+    {
+      "name": "jalape\u00f1os, raw",
+      "grams": 10
+    }
+  ],
+  "baked chili cheese burrito": [
+    {
+      "name": "flour tortilla",
+      "grams": 85
+    },
+    {
+      "name": "beef, cooked",
+      "grams": 70
+    },
+    {
+      "name": "chili, canned",
+      "grams": 100
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 30
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "spicy chicken sandwich": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 90
+    },
+    {
+      "name": "bread, white",
+      "grams": 45
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    }
+  ],
+  "cheeseburger": [
+    {
+      "name": "beef patty, cooked",
+      "grams": 55
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 21
+    },
+    {
+      "name": "hamburger bun, white",
+      "grams": 43
+    }
+  ],
+  "ham & cheese sandwich": [
+    {
+      "name": "ham, cooked",
+      "grams": 45
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 21
+    },
+    {
+      "name": "bread, white",
+      "grams": 52
+    }
+  ],
+  "beans, refried, canned": [
+    {
+      "name": "beans, refried, canned",
+      "grams": 130
+    }
+  ],
+  "tajin limon cucumbers": [
+    {
+      "name": "cucumber, raw",
+      "grams": 100
+    },
+    {
+      "name": "lime juice",
+      "grams": 5
+    },
+    {
+      "name": "chili powder",
+      "grams": 1
+    }
+  ],
+  "sandwich salad": [
+    {
+      "name": "lettuce, raw",
+      "grams": 50
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 40
+    },
+    {
+      "name": "cucumber, raw",
+      "grams": 30
+    },
+    {
+      "name": "ham, sliced",
+      "grams": 28
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 21
+    }
+  ],
+  "taco veggie topper": [
+    {
+      "name": "lettuce, raw",
+      "grams": 30
+    },
+    {
+      "name": "tomatoes, raw",
+      "grams": 25
+    },
+    {
+      "name": "cheddar cheese, shredded",
+      "grams": 15
+    },
+    {
+      "name": "black beans, canned",
+      "grams": 40
+    }
+  ],
+  "criss-cross applesauce": [
+    {
+      "name": "applesauce, canned",
+      "grams": 113
+    }
+  ],
+  "bbq chicken": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "barbecue sauce",
+      "grams": 30
+    }
+  ],
+  "tex corn dog": [
+    {
+      "name": "corn flour, yellow",
+      "grams": 35
+    },
+    {
+      "name": "cornmeal, yellow",
+      "grams": 15
+    },
+    {
+      "name": "frank, beef",
+      "grams": 45
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "spicy italian chicken sandwich": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "bread, white",
+      "grams": 45
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "mozzarella cheese",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "cowboy burger": [
+    {
+      "name": "ground beef, cooked",
+      "grams": 55
+    },
+    {
+      "name": "hamburger bun",
+      "grams": 43
+    },
+    {
+      "name": "cheddar cheese",
+      "grams": 21
+    },
+    {
+      "name": "bacon, cooked",
+      "grams": 14
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    }
+  ],
+  "supreme pizza pie, 16\"": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 120
+    },
+    {
+      "name": "pizza sauce, canned",
+      "grams": 60
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 40
+    },
+    {
+      "name": "pepperoni, cooked",
+      "grams": 20
+    },
+    {
+      "name": "sausage, cooked",
+      "grams": 25
+    },
+    {
+      "name": "bell peppers, cooked",
+      "grams": 15
+    }
+  ],
+  "chef salad": [
+    {
+      "name": "lettuce, raw",
+      "grams": 85
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 45
+    },
+    {
+      "name": "ham, cooked",
+      "grams": 30
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 28
+    },
+    {
+      "name": "egg, cooked",
+      "grams": 40
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 55
+    }
+  ],
+  "savory green beans": [
+    {
+      "name": "green beans, cooked",
+      "grams": 100
+    }
+  ],
+  "carrot sticks": [
+    {
+      "name": "carrots, raw",
+      "grams": 100
+    }
+  ],
+  "fresh fruit salad": [
+    {
+      "name": "apple, raw",
+      "grams": 75
+    },
+    {
+      "name": "banana, raw",
+      "grams": 70
+    },
+    {
+      "name": "orange, raw",
+      "grams": 80
+    },
+    {
+      "name": "grapes, raw",
+      "grams": 50
+    }
+  ],
+  "chilled peaches": [
+    {
+      "name": "peaches, canned in light syrup, chilled",
+      "grams": 120
+    }
+  ],
+  "spicy chicken tinga on taco chips": [
+    {
+      "name": "chicken, cooked",
+      "grams": 70
+    },
+    {
+      "name": "tomatoes, canned",
+      "grams": 60
+    },
+    {
+      "name": "onions, cooked",
+      "grams": 30
+    },
+    {
+      "name": "corn tortilla chips",
+      "grams": 28
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "turkey & pepper jack burger": [
+    {
+      "name": "ground turkey, cooked",
+      "grams": 85
+    },
+    {
+      "name": "pepper jack cheese",
+      "grams": 21
+    },
+    {
+      "name": "hamburger bun",
+      "grams": 43
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    }
+  ],
+  "meat lovers pizza pie, 16\"": [
+    {
+      "name": "pizza crust, cooked",
+      "grams": 120
+    },
+    {
+      "name": "tomato sauce, canned",
+      "grams": 40
+    },
+    {
+      "name": "cheese, mozzarella, part skim",
+      "grams": 35
+    },
+    {
+      "name": "beef, ground, cooked",
+      "grams": 25
+    },
+    {
+      "name": "pork, sausage, cooked",
+      "grams": 20
+    },
+    {
+      "name": "ham, cured, cooked",
+      "grams": 15
+    }
+  ],
+  "otg galaxy parfait": [
+    {
+      "name": "yogurt, plain",
+      "grams": 85
+    },
+    {
+      "name": "granola, dry",
+      "grams": 30
+    },
+    {
+      "name": "blueberries, raw",
+      "grams": 40
+    },
+    {
+      "name": "strawberries, raw",
+      "grams": 35
+    },
+    {
+      "name": "whipped topping",
+      "grams": 15
+    }
+  ],
+  "baked beans": [
+    {
+      "name": "beans, baked, canned",
+      "grams": 130
+    },
+    {
+      "name": "tomato sauce",
+      "grams": 30
+    },
+    {
+      "name": "brown sugar",
+      "grams": 8
+    }
+  ],
+  "cheesy spinach": [
+    {
+      "name": "spinach, cooked",
+      "grams": 85
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 20
+    },
+    {
+      "name": "butter",
+      "grams": 7
+    }
+  ],
+  "orange wedges": [
+    {
+      "name": "oranges, raw",
+      "grams": 120
+    }
+  ],
+  "cinnamon honey apples": [
+    {
+      "name": "apples, raw",
+      "grams": 100
+    },
+    {
+      "name": "honey",
+      "grams": 10
+    },
+    {
+      "name": "cinnamon",
+      "grams": 0.5
+    }
+  ],
+  "pizzeria cheese pizza": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 85
+    },
+    {
+      "name": "pizza sauce, canned",
+      "grams": 30
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 28
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "spicy chicken tenders": [
+    {
+      "name": "chicken breast, breaded and fried",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "spices, mixed",
+      "grams": 1
+    }
+  ],
+  "spicy deluxe chicken sandwich": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "bread, white",
+      "grams": 50
+    },
+    {
+      "name": "mayonnaise",
+      "grams": 15
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    }
+  ],
+  "double cheeseburger": [
+    {
+      "name": "ground beef, cooked",
+      "grams": 55
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 20
+    },
+    {
+      "name": "bread, hamburger bun",
+      "grams": 40
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 15
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 10
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "cheesy twiz-stik": [
+    {
+      "name": "cheese, processed",
+      "grams": 28
+    },
+    {
+      "name": "wheat flour",
+      "grams": 25
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    },
+    {
+      "name": "water",
+      "grams": 10
+    }
+  ],
+  "caesar chicken wrap": [
+    {
+      "name": "tortilla, flour",
+      "grams": 55
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 50
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 30
+    },
+    {
+      "name": "parmesan cheese",
+      "grams": 10
+    },
+    {
+      "name": "caesar dressing",
+      "grams": 30
+    }
+  ],
+  "country corn": [
+    {
+      "name": "corn, canned",
+      "grams": 120
+    },
+    {
+      "name": "butter",
+      "grams": 5
+    }
+  ],
+  "celery and tomato": [
+    {
+      "name": "celery, raw",
+      "grams": 60
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 80
+    }
+  ],
+  "texas fruit juice blend slushie": [
+    {
+      "name": "fruit juice blend, frozen",
+      "grams": 227
+    }
+  ],
+  "apple & mixed fruit salad": [
+    {
+      "name": "apples, raw",
+      "grams": 80
+    },
+    {
+      "name": "mixed fruit, raw",
+      "grams": 70
+    }
+  ],
+  "chicken tenders": [
+    {
+      "name": "chicken breast, breaded and fried",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "grilled chicken club sandwich": [
+    {
+      "name": "bread, wheat",
+      "grams": 60
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 55
+    },
+    {
+      "name": "bacon, cooked",
+      "grams": 15
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 20
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 25
+    },
+    {
+      "name": "mayonnaise",
+      "grams": 15
+    }
+  ],
+  "hamburger": [
+    {
+      "name": "ground beef, cooked",
+      "grams": 55
+    },
+    {
+      "name": "hamburger bun",
+      "grams": 43
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "onion, raw",
+      "grams": 10
+    }
+  ],
+  "otg  pb&j sandwich": [
+    {
+      "name": "bread, white",
+      "grams": 50
+    },
+    {
+      "name": "peanut butter",
+      "grams": 32
+    },
+    {
+      "name": "jelly",
+      "grams": 15
+    }
+  ],
+  "potato wedges": [
+    {
+      "name": "potatoes, baked",
+      "grams": 100
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "baby carrots": [
+    {
+      "name": "carrots, raw",
+      "grams": 85
+    }
+  ],
+  "apple slices": [
+    {
+      "name": "apples, raw",
+      "grams": 95
+    }
+  ],
+  "chilled pears": [
+    {
+      "name": "pears, raw",
+      "grams": 150
+    }
+  ],
+  "taco bites": [
+    {
+      "name": "beef, cooked",
+      "grams": 45
+    },
+    {
+      "name": "tortilla, corn",
+      "grams": 30
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 10
+    }
+  ],
+  "turkey & cheese sandwich": [
+    {
+      "name": "turkey, roasted",
+      "grams": 56
+    },
+    {
+      "name": "cheese, american",
+      "grams": 21
+    },
+    {
+      "name": "bread, white",
+      "grams": 48
+    }
+  ],
+  "ranchero beans": [
+    {
+      "name": "beans, pinto, cooked",
+      "grams": 95
+    },
+    {
+      "name": "tomatoes, canned",
+      "grams": 40
+    },
+    {
+      "name": "onions, cooked",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "cinnamon applesauce": [
+    {
+      "name": "applesauce, canned",
+      "grams": 120
+    }
+  ],
+  "chicken tetrazzini": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 90
+    },
+    {
+      "name": "pasta, cooked",
+      "grams": 100
+    },
+    {
+      "name": "milk",
+      "grams": 60
+    },
+    {
+      "name": "butter",
+      "grams": 8
+    },
+    {
+      "name": "mushrooms, cooked",
+      "grams": 30
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 15
+    }
+  ],
+  "harvest salad": [
+    {
+      "name": "lettuce, raw",
+      "grams": 75
+    },
+    {
+      "name": "carrots, raw",
+      "grams": 30
+    },
+    {
+      "name": "tomatoes, raw",
+      "grams": 40
+    },
+    {
+      "name": "cucumbers, raw",
+      "grams": 25
+    },
+    {
+      "name": "chickpeas, canned",
+      "grams": 35
+    }
+  ],
+  "lemon pepper popcorn chicken": [
+    {
+      "name": "chicken breast, cooked",
+      "grams": 85
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "otg strawberry parfait": [
+    {
+      "name": "yogurt, plain",
+      "grams": 85
+    },
+    {
+      "name": "strawberries, raw",
+      "grams": 70
+    },
+    {
+      "name": "granola",
+      "grams": 20
+    }
+  ],
+  "house salad": [
+    {
+      "name": "lettuce, raw",
+      "grams": 85
+    },
+    {
+      "name": "tomatoes, raw",
+      "grams": 45
+    },
+    {
+      "name": "cucumbers, raw",
+      "grams": 40
+    },
+    {
+      "name": "carrots, raw",
+      "grams": 30
+    }
+  ],
+  "strawberry medley": [
+    {
+      "name": "strawberries, raw",
+      "grams": 150
+    },
+    {
+      "name": "blueberries, raw",
+      "grams": 75
+    },
+    {
+      "name": "raspberries, raw",
+      "grams": 50
+    }
+  ],
+  "bbq chicken pizza": [
+    {
+      "name": "pizza crust, baked",
+      "grams": 100
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 50
+    },
+    {
+      "name": "cheese, mozzarella",
+      "grams": 30
+    },
+    {
+      "name": "barbecue sauce",
+      "grams": 25
+    },
+    {
+      "name": "onions, cooked",
+      "grams": 15
+    }
+  ],
+  "chipotle chicken wrap": [
+    {
+      "name": "tortilla, flour",
+      "grams": 55
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 70
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    },
+    {
+      "name": "sour cream",
+      "grams": 15
+    }
+  ],
+  "broccoli & carrot stick": [
+    {
+      "name": "broccoli, raw",
+      "grams": 50
+    },
+    {
+      "name": "carrots, raw",
+      "grams": 50
+    }
+  ],
+  "cheezy hotz chunks": [
+    {
+      "name": "cheese product, processed",
+      "grams": 45
+    },
+    {
+      "name": "corn meal, enriched",
+      "grams": 35
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 12
+    }
+  ],
+  "otg pb&j sandwich": [
+    {
+      "name": "bread, white, sandwich",
+      "grams": 50
+    },
+    {
+      "name": "peanut butter",
+      "grams": 32
+    },
+    {
+      "name": "jelly",
+      "grams": 20
+    }
+  ],
+  "tater tots": [
+    {
+      "name": "potatoes, raw",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "peachy pear fruit": [
+    {
+      "name": "peaches, canned in light syrup",
+      "grams": 85
+    },
+    {
+      "name": "pears, canned in light syrup",
+      "grams": 85
+    }
+  ],
+  "fiesta bowl": [
+    {
+      "name": "rice, cooked",
+      "grams": 100
+    },
+    {
+      "name": "black beans, canned",
+      "grams": 75
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 60
+    },
+    {
+      "name": "corn, canned",
+      "grams": 50
+    },
+    {
+      "name": "tomatoes, raw",
+      "grams": 40
+    },
+    {
+      "name": "cheddar cheese, shredded",
+      "grams": 20
+    }
+  ],
+  "mexican street corn": [
+    {
+      "name": "corn, cooked",
+      "grams": 100
+    },
+    {
+      "name": "mayonnaise",
+      "grams": 15
+    },
+    {
+      "name": "cheese, cheddar, grated",
+      "grams": 10
+    },
+    {
+      "name": "lime juice",
+      "grams": 5
+    },
+    {
+      "name": "chili powder",
+      "grams": 1
+    }
+  ],
+  "lemon pepper chicken wings": [
+    {
+      "name": "chicken wings, cooked",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    },
+    {
+      "name": "lemon juice",
+      "grams": 5
+    },
+    {
+      "name": "black pepper",
+      "grams": 0.5
+    }
+  ],
+  "carrot & celery sticks": [
+    {
+      "name": "carrots, raw",
+      "grams": 60
+    },
+    {
+      "name": "celery, raw",
+      "grams": 40
+    }
+  ],
+  "red delicious apple": [
+    {
+      "name": "apple, red delicious, raw",
+      "grams": 182
+    }
+  ],
+  "spaghetti pasta": [
+    {
+      "name": "spaghetti pasta, cooked",
+      "grams": 100
+    }
+  ],
+  "otg peach parfait": [
+    {
+      "name": "yogurt, plain",
+      "grams": 85
+    },
+    {
+      "name": "peaches, canned in light syrup",
+      "grams": 70
+    },
+    {
+      "name": "granola, dry",
+      "grams": 25
+    }
+  ],
+  "fish nuggets": [
+    {
+      "name": "fish, cooked",
+      "grams": 60
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "chicken bacon wrap": [
+    {
+      "name": "tortilla, wheat",
+      "grams": 55
+    },
+    {
+      "name": "chicken breast, cooked",
+      "grams": 45
+    },
+    {
+      "name": "bacon, cooked",
+      "grams": 15
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 20
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 25
+    },
+    {
+      "name": "mayonnaise",
+      "grams": 15
+    }
+  ],
+  "creamy mashed potatoes": [
+    {
+      "name": "potatoes, mashed",
+      "grams": 150
+    },
+    {
+      "name": "milk, whole",
+      "grams": 30
+    },
+    {
+      "name": "butter",
+      "grams": 10
+    }
+  ],
+  "green chile chicken tamales": [
+    {
+      "name": "chicken, cooked",
+      "grams": 45
+    },
+    {
+      "name": "corn masa, cooked",
+      "grams": 85
+    },
+    {
+      "name": "green chiles, canned",
+      "grams": 30
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 15
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 8
+    }
+  ],
+  "mixed vegetables": [
+    {
+      "name": "carrots, cooked",
+      "grams": 50
+    },
+    {
+      "name": "peas, cooked",
+      "grams": 40
+    },
+    {
+      "name": "corn, cooked",
+      "grams": 35
+    }
+  ],
+  "toasted cinnamon honey apples": [
+    {
+      "name": "apples, raw",
+      "grams": 110
+    },
+    {
+      "name": "honey",
+      "grams": 10
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 5
+    }
+  ],
+  "grilled cheese sandwich": [
+    {
+      "name": "bread, white",
+      "grams": 50
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 28
+    },
+    {
+      "name": "butter",
+      "grams": 14
+    }
+  ],
+  "fresh peach": [
+    {
+      "name": "peach, raw",
+      "grams": 150
+    }
+  ],
+  "bean & cheese burrito": [
+    {
+      "name": "flour tortilla",
+      "grams": 55
+    },
+    {
+      "name": "beans, cooked",
+      "grams": 85
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 28
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 7
+    }
+  ],
+  "fruit & vegetable juice": [
+    {
+      "name": "fruit juice blend",
+      "grams": 180
+    },
+    {
+      "name": "vegetable juice",
+      "grams": 60
+    }
+  ],
+  "salsa cups": [
+    {
+      "name": "tomatoes, raw",
+      "grams": 45
+    },
+    {
+      "name": "onions, raw",
+      "grams": 15
+    },
+    {
+      "name": "peppers, raw",
+      "grams": 10
+    }
+  ],
+  "chili cheese dog": [
+    {
+      "name": "beef frank, cooked",
+      "grams": 45
+    },
+    {
+      "name": "hot dog bun",
+      "grams": 43
+    },
+    {
+      "name": "chili, beef, cooked",
+      "grams": 85
+    },
+    {
+      "name": "cheese, cheddar, shredded",
+      "grams": 20
+    }
+  ],
+  "cheese croissant": [
+    {
+      "name": "croissant, baked",
+      "grams": 55
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 25
+    }
+  ],
+  "tater tots ck": [
+    {
+      "name": "potatoes, raw",
+      "grams": 85
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "peachy pear fruit salad": [
+    {
+      "name": "peaches, canned in light syrup",
+      "grams": 100
+    },
+    {
+      "name": "pears, canned in light syrup",
+      "grams": 85
+    }
+  ],
+  "taco topper": [
+    {
+      "name": "ground beef, cooked",
+      "grams": 55
+    },
+    {
+      "name": "cheddar cheese, shredded",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 15
+    },
+    {
+      "name": "sour cream",
+      "grams": 15
+    }
+  ],
+  "burger/sandwich salad": [
+    {
+      "name": "lettuce, raw",
+      "grams": 50
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 40
+    },
+    {
+      "name": "ground beef, cooked",
+      "grams": 55
+    },
+    {
+      "name": "cheddar cheese",
+      "grams": 20
+    },
+    {
+      "name": "bread, white",
+      "grams": 45
+    }
+  ],
+  "taco snack burrito": [
+    {
+      "name": "flour tortilla, cooked",
+      "grams": 55
+    },
+    {
+      "name": "beef, ground, cooked",
+      "grams": 45
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 20
+    },
+    {
+      "name": "beans, refried, canned",
+      "grams": 30
+    }
+  ],
+  "paradise medley": [
+    {
+      "name": "pineapple, raw",
+      "grams": 70
+    },
+    {
+      "name": "mandarin oranges, canned in light syrup",
+      "grams": 60
+    },
+    {
+      "name": "coconut, shredded",
+      "grams": 15
+    },
+    {
+      "name": "maraschino cherries",
+      "grams": 10
+    }
+  ],
+  "baked burrito": [
+    {
+      "name": "flour tortilla",
+      "grams": 60
+    },
+    {
+      "name": "ground beef, cooked",
+      "grams": 55
+    },
+    {
+      "name": "beans, cooked",
+      "grams": 50
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 20
+    },
+    {
+      "name": "tomato sauce",
+      "grams": 30
+    }
+  ],
+  "broccoli bites": [
+    {
+      "name": "broccoli, raw",
+      "grams": 85
+    },
+    {
+      "name": "bread crumbs, dry",
+      "grams": 20
+    },
+    {
+      "name": "vegetable oil",
+      "grams": 10
+    }
+  ],
+  "frozen peach cup": [
+    {
+      "name": "peaches, frozen",
+      "grams": 113
+    }
+  ],
+  "pinto bean tamales": [
+    {
+      "name": "pinto beans, cooked",
+      "grams": 60
+    },
+    {
+      "name": "corn masa, cooked",
+      "grams": 80
+    },
+    {
+      "name": "corn husks",
+      "grams": 5
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 15
+    }
+  ],
+  "frozen apricot cup": [
+    {
+      "name": "apricots, canned in light syrup",
+      "grams": 113
+    }
+  ],
+  "soft turkey tacos": [
+    {
+      "name": "turkey, ground, cooked",
+      "grams": 56
+    },
+    {
+      "name": "tortilla, flour",
+      "grams": 52
+    },
+    {
+      "name": "cheese, cheddar",
+      "grams": 14
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 15
+    }
+  ],
+  "turkey & american burger": [
+    {
+      "name": "ground turkey, cooked",
+      "grams": 55
+    },
+    {
+      "name": "hamburger bun",
+      "grams": 43
+    },
+    {
+      "name": "american cheese",
+      "grams": 21
+    },
+    {
+      "name": "tomato, raw",
+      "grams": 20
+    },
+    {
+      "name": "lettuce, raw",
+      "grams": 15
+    }
+  ],
+  "cucumber sticks": [
+    {
+      "name": "cucumber, raw",
+      "grams": 100
+    }
+  ]
+}

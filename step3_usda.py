@@ -4,6 +4,11 @@ step3_usda.py
 Read the ingredients CSV produced by step2, look up each ingredient in the
 USDA FoodData Central API, scale nutrients to the ingredient's gram weight,
 and return a dict of total nutrient amounts for the full meal serving.
+
+IMPORTANT: DIRECT_FDC_MAP must contain SR Legacy IDs ONLY.
+Foundation IDs (identifiable by being in ranges like 7xxxxx, 2xxxxxx, 3xxxxx)
+will 404 on the detail endpoint. Always verify via lookup_fdc.py and use the
+SR Legacy section result.
 """
 
 import csv
@@ -13,54 +18,180 @@ import requests
 import config
 from config import NUTRIENT_MAP
 
-# ── Endpoints — same pattern as your usda_compare_test.py ────────────────────
+# ── Endpoints ─────────────────────────────────────────────────────────────────
 SEARCH_URL = "https://api.nal.usda.gov/fdc/v1/foods/search"
-DETAIL_URL = "https://api.nal.usda.gov/fdc/v1/food/{}"   # fill in fdc_id
+DETAIL_URL = "https://api.nal.usda.gov/fdc/v1/food/{}"
 
 
-# Ingredients to skip entirely — too generic or too small to search reliably.
-# These either return wrong matches (salt → salted butter) or contribute
-# negligible nutrition at the gram weights used in recipes.
+# ── SKIP_INGREDIENTS ──────────────────────────────────────────────────────────
 SKIP_INGREDIENTS = {
+    # Spices / seasonings — trace amounts, return wrong matches
     "salt", "pepper", "black pepper", "sea salt", "kosher salt",
     "cumin", "chili powder", "garlic powder", "onion powder", "oregano",
     "paprika", "cayenne", "coriander", "turmeric", "bay leaf",
+    # Seasoning blends — no good USDA match, trace amounts
+    "tajin", "tajin seasoning", "tajin seasoning blend",
+    "chile lime seasoning", "ranch seasoning", "taco seasoning",
+    # Additives — return bizarre USDA matches
+    "ascorbic acid", "citric acid",
+    "natural flavor", "natural flavors", "artificial flavor", "artificial flavors",
+    # Processing artifacts
+    "corn husks", "corn husk",
+    # Neutral liquids / leavening
     "water", "ice", "baking powder", "baking soda",
+    "buffalo sauce",          # hot-sauce condiment → was matching water-buffalo milk
 }
 
-# For ingredients where USDA search returns bad matches, map directly to a known
-# FDC ID rather than relying on the search endpoint.
-# ⚠️  ONLY add IDs you have personally verified at fdc.nal.usda.gov
-# Format: "ingredient name as claude writes it (lowercase)": fdc_id
+
+# ── DIRECT_FDC_MAP ────────────────────────────────────────────────────────────
+# SR Legacy IDs ONLY. Foundation IDs 404 on the detail endpoint.
+# SR Legacy IDs are in the 160000-174999 range roughly.
+# When in doubt, use lookup_fdc.py and take the SR Legacy section result.
 DIRECT_FDC_MAP = {
-    # ── Verified working in actual runs ───────────────────────────────────────
-    "tomatoes, fresh, diced":       170457,   # Tomatoes, red, ripe, raw ✅
-    "tomato, fresh, diced":         170457,
-    "tomatoes, raw":                170457,
-    "tomato, raw":                  170457,
-    "tomatoes, diced":              170457,
-    "ground beef, cooked":          174032,   # Beef, ground, 80% lean, cooked ✅
-    "ground beef":                  174032,
-    "nutritional yeast":            168875,   # Nutritional yeast ✅
-    "tofu, extra firm":             174290,   # Tofu, extra firm, nigari ✅
-    "tofu, extra firm, cooked":     174290,
-    "tempeh, cooked":               174272,   # Tempeh ✅
-    "tempeh":                       174272,
-    "vegetable oil":                172370,   # Oil, vegetable, soybean ✅
-    "lettuce, raw":                 169248,   # Lettuce, iceberg ✅
-    "lettuce, iceberg, raw":        169248,
-    "lettuce, iceberg, shredded":   169248,
-    "cheddar cheese":               328637,
 
-    # ── Add verified IDs here as you find them ────────────────────────────────
-    # Go to fdc.nal.usda.gov, search the ingredient, click the SR Legacy result,
-    # copy the number from the URL, paste it here.
-    # Example:
-    # "cheddar cheese, shredded":   XXXXXX,  # Cheese, cheddar — verified MM/DD/YY
+    # ── PROTEINS ──────────────────────────────────────────────────────────────
+    # Chicken
+    "chicken, cooked":                      171477,   # Chicken, broiler, breast, meat only, cooked, roasted ✅
+    "chicken, cooked, diced":               171477,
+    "chicken breast, cooked":               171477,
+    "chicken breast, diced, cooked":        171477,
+    "chicken breast, diced":                171477,
+    "chicken breast, roasted":              171477,
+    "chicken, roasted":                     171477,
+    "chicken breast, breaded and fried":    171477,
+
+    # Turkey
+    "turkey, sliced, cooked":               172941,   # Turkey breast, sliced, prepackaged ✅
+    "turkey breast, sliced":                172941,
+    "turkey breast, sliced, cooked":        172941,
+    "turkey, deli sliced":                  172941,
+    "turkey breast, cooked":                174516,   # Turkey, retail parts, breast, meat only, cooked, roasted ✅
+    "turkey, cooked":                       174516,
+    "turkey, roasted":                      174516,
+
+    # Beef
+    "ground beef, cooked":                  174032,   # Beef, ground, 80% lean, cooked ✅
+    "ground beef":                          174032,
+
+    # Plant proteins
+    "tofu, extra firm":                     174290,   # Tofu, extra firm, nigari ✅
+    "tofu, extra firm, cooked":             174290,
+    "tempeh, cooked":                       174272,   # Tempeh ✅
+    "tempeh":                               174272,
+    "nutritional yeast":                    168875,   # Nutritional yeast ✅
+
+    # Edamame — search returns bulgur first without direct map
+    "edamame, cooked":                      168411,   # Edamame, frozen, prepared ✅
+    "edamame, frozen, cooked":              168411,
+    "edamame":                              168411,
+
+    # ── DAIRY & EGGS ──────────────────────────────────────────────────────────
+    # Cheese
+    "cheddar cheese":                       170899,   # Cheese, cheddar, sharp, sliced ✅
+    "cheddar cheese, shredded":             170899,
+    "cheese, cheddar":                      170899,
+    "cheese, cheddar, shredded":            170899,
+
+    # Milk — SR Legacy only; bare "milk" was returning crackers
+    "milk":                                 171265,   # Milk, whole, 3.25% milkfat, with added vitamin D ✅
+    "milk, whole":                          171265,
+    "whole milk":                           171265,
+    "milk, whole, fluid":                   171265,
+
+# Eggs — SR Legacy; bare "eggs" was returning bagels.
+    # NOTE: "egg" (singular) is a SEPARATE dict key from "eggs" — Claude writes
+    # the singular in baked-goods decompositions, so it needs its own entry.
+    "egg":                                  171287,   # ← ADDED: singular was hitting Bagels, egg
+    "eggs":                                 171287,   # Egg, whole, raw, fresh ✅
+    "egg, whole":                           171287,
+    "egg, whole, raw":                      171287,
+    "eggs, whole":                          171287,
+    
+    # ── GRAINS & BREAD ────────────────────────────────────────────────────────
+    # White bread — SR Legacy; Foundation 2758993 404s
+    "bread, white":                         167532,   # Bread, white wheat ✅
+    "bread, white, sliced":                 167532,
+    "bread, white sandwich":                167532,
+    "bread, white, sandwich":               167532,
+    "bread, white, enriched":               167532,
+
+    # Whole wheat bread — SR Legacy; was returning pita
+    "bread, whole wheat":                   172688,   # Bread, whole-wheat, commercially prepared ✅
+    "bread, whole wheat, sliced":           172688,
+    "bread, whole grain":                   172688,
+    "bread, whole wheat sandwich":          172688,
+
+    # Rice
+    "rice, cooked":                         168880,   # Rice, white, medium-grain, enriched, cooked ✅
+    "rice, white, cooked":                  168880,
+    "white rice, cooked":                   168880,
+
+# Cornmeal — no cooked entry in USDA; dry used, calorie-anchor corrects total
+    # ⚠️ dry form (~360 kcal/100g vs ~70 cooked) — food-group grams will be inflated
+    "cornmeal, cooked":                     168867,   # Cornmeal, degermed, enriched, yellow (dry) ⚠️
+    "cornmeal, yellow, enriched":           168867,
+    "cornmeal, yellow":                     168867,
+    "corn meal, yellow":                    168867,
+    "corn, ground":                         168867,   # ← ADDED: was matching Chicken, ground, raw
+    
+    # ── VEGETABLES ────────────────────────────────────────────────────────────
+    "tomatoes, fresh, diced":               170457,   # Tomatoes, red, ripe, raw ✅
+    "tomato, fresh, diced":                 170457,
+    "tomatoes, raw":                        170457,
+    "tomato, raw":                          170457,
+    "tomatoes, diced":                      170457,
+    "lettuce, raw":                         169248,   # Lettuce, iceberg ✅
+    "lettuce, iceberg, raw":                169248,
+    "lettuce, iceberg, shredded":           169248,
+
+    # Corn — search returns pasta/noodles without direct map
+    "corn, cooked":                         168401,   # Corn, sweet, yellow, frozen, kernels, cooked, without salt ✅
+    "corn, steamed":                        168401,
+    "corn kernels, cooked":                 168401,
+    "corn, whole kernel":                   169214,   # Corn, sweet, yellow, canned, whole kernel, drained ✅
+    "corn, whole kernel, canned":           169214,
+    "corn kernels, canned":                 169214,
+
+    # ── FRUIT ─────────────────────────────────────────────────────────────────
+    # Apples — search returns rose-apples without direct map
+    "apples, raw":                          171689,   # Apples, raw, without skin ✅
+    "apple, raw":                           171689,
+    "apples, raw, with skin":               171689,
+    "apple wedges":                         171689,
+    "apple slices":                         171689,
+
+    # Oranges — search returns orange peel without direct map
+    "oranges, raw":                         169097,   # Oranges, raw, all commercial varieties ✅
+    "orange, raw":                          169097,
+    "orange segments":                      169097,
+
+    # Grapes — search returns grape leaves without direct map
+    "grapes, raw":                          174683,   # Grapes, red or green, European type, raw ✅
+    "grapes, seedless":                     174683,
+    "grapes, red, seedless":                174683,
+    "grapes, green, seedless":              174683,
+
+    # ── FATS & OILS ───────────────────────────────────────────────────────────
+    "vegetable oil":                        172370,   # Oil, vegetable, soybean ✅
+    "butter":                               173410,   # Butter, salted ✅
+    "butter, salted":                       173410,
+
+    # ── JUICES — SR Legacy only ───────────────────────────────────────────────
+    "apple juice":                          167771,   # Apple juice, canned/bottled, unsweetened, with ascorbic acid ✅
+    "apple juice, from concentrate":        167771,
+    "apple juice, unsweetened":             167771,
+    "white grape juice":                    173041,   # Grape juice, canned/bottled, unsweetened, with ascorbic acid ✅
+    "grape juice, white":                   173041,
+    "grape juice, unsweetened":             173041,
+
+    # ── ADD VERIFIED SR LEGACY IDs HERE ───────────────────────────────────────
+    # Run lookup_fdc.py → take the SR Legacy section result → paste here.
+    # DO NOT use Foundation IDs — they 404 on the detail endpoint.
 }
 
-# Ingredients whose high nutrient values are correct and should NOT trigger
-# the sanity flag — pure fats and oils are legitimately 100% fat.
+
+# Ingredients whose high nutrient values are correct — pure fats legitimately
+# have very high calorie/fat density and should not trigger sanity flags.
 SANITY_WHITELIST = {
     "vegetable oil", "oil, vegetable",
     "olive oil", "oil, olive",
@@ -70,33 +201,19 @@ SANITY_WHITELIST = {
     "margarine", "shortening",
 }
 
-# ── Nutrient sanity thresholds (per 100g of a single ingredient) ─────────────
-# If USDA returns a value above these for a single ingredient, the match is
-# probably wrong. Values represent realistic upper bounds for whole foods.
-# Pure fats/oils are excluded via SANITY_WHITELIST above.
 SANITY_THRESHOLDS_PER_100G = {
-    "Protein (g)":       45,    # Real meat ~31g max; isolates hit 90g → flag
-    "Calories (kcal)":  700,    # Most whole foods under 600; oils excluded by whitelist
-    "Sodium (mg)":     2000,    # No whole food ingredient should exceed this
-    "Cholesterol (mg)": 400,    # Egg yolk is ~1085mg but typical ingredients well under
+    "Protein (g)":       45,
+    "Calories (kcal)":  700,
+    "Sodium (mg)":     2000,
+    "Cholesterol (mg)": 400,
 }
 
 
 def find_fdc_id(ingredient_name: str, api_key: str) -> tuple[int | None, str]:
-    """
-    Search USDA for an ingredient name, return (fdc_id, description).
-    Tries SR Legacy first (most complete nutrient data), then Foundation,
-    then no filter as a last resort.
-
-    Uses pageSize=5 and picks the result whose description best matches
-    the cooking state specified in the ingredient name (cooked, canned, raw).
-    """
-    # Keywords in the ingredient name that indicate cooking state
     name_lower = ingredient_name.lower()
     prefer_cooked = any(w in name_lower for w in ["cooked", "canned", "baked", "roasted", "boiled"])
     prefer_raw    = "raw" in name_lower
 
-    # For cheese, extract the specific type so we don't get parmesan when we want cheddar
     cheese_types = ["cheddar", "mozzarella", "parmesan", "american", "monterey", "pepper jack",
                     "swiss", "provolone", "colby", "ricotta", "feta", "brie"]
     prefer_cheese_type = next((c for c in cheese_types if c in name_lower), None)
@@ -116,38 +233,29 @@ def find_fdc_id(ingredient_name: str, api_key: str) -> tuple[int | None, str]:
         if not foods:
             continue
 
-        # For specific cheese types, find a result that actually matches the type
         if prefer_cheese_type:
             for food in foods:
                 desc = food.get("description", "").lower()
                 if prefer_cheese_type in desc:
                     return food["fdcId"], food.get("description", ingredient_name)
 
-        # If ingredient specifies cooked/canned, prefer a result that says so
         if prefer_cooked:
             for food in foods:
                 desc = food.get("description", "").lower()
                 if any(w in desc for w in ["cooked", "canned", "baked", "roasted", "boiled"]):
                     return food["fdcId"], food.get("description", ingredient_name)
 
-        # If ingredient specifies raw, prefer raw result
         if prefer_raw:
             for food in foods:
                 if "raw" in food.get("description", "").lower():
                     return food["fdcId"], food.get("description", ingredient_name)
 
-        # Otherwise just return the top result
         return foods[0]["fdcId"], foods[0].get("description", ingredient_name)
 
     return None, ""
 
 
 def fetch_nutrients_per_100g(fdc_id: int, api_key: str) -> dict:
-    """
-    Pull nutrients for one FDC ID using the detail endpoint —
-    exactly like your usda_compare_test.py does it.
-    Returns a dict of { our_label: amount_per_100g }.
-    """
     resp = requests.get(
         DETAIL_URL.format(fdc_id),
         params={"api_key": api_key},
@@ -164,48 +272,23 @@ def fetch_nutrients_per_100g(fdc_id: int, api_key: str) -> dict:
         if usda_name not in NUTRIENT_MAP:
             continue
 
-        # USDA returns "Energy" twice: once in kcal, once in kJ (which is ~4x
-        # higher and is what was inflating your calorie numbers).
-        # Only keep the kcal entry.
         if usda_name == "Energy":
             unit = item["nutrient"].get("unitName", "").lower()
             if unit != "kcal":
                 continue
 
-        nutrients[NUTRIENT_MAP[usda_name]] = amount   # per 100 g
+        nutrients[NUTRIENT_MAP[usda_name]] = amount
 
     return nutrients
 
 
 def nutrients_from_csv(csv_path: str, api_key: str = None) -> dict:
-    """
-    Full step 3 pipeline:
-      1. Read ingredients CSV (ingredient_name, grams)
-      2. Search USDA for each ingredient → get FDC ID
-      3. Fetch detail endpoint → real per-100g nutrient values (from USDA, not estimated)
-      4. Scale to actual gram weight
-      5. Sum across all ingredients → meal totals
-
-    Returns
-    -------
-    {
-      "totals":      { "Protein (g)": 18.4, ... },   # whole meal
-      "ingredients": [
-          {
-            "name": "ground beef", "grams": 85,
-            "fdc_id": 168608, "usda_description": "Beef, ground, 80% lean...",
-            "nutrients_scaled": { "Protein (g)": 15.7, ... }
-          }, ...
-      ]
-    }
-    """
     if api_key is None:
         api_key = config.USDA_API_KEY or config.load_keys()
 
     with open(csv_path, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
-    # Initialize totals to zero for every nutrient we track
     totals      = {label: 0.0 for label in NUTRIENT_MAP.values()}
     ingredients = []
     missing     = []
@@ -214,15 +297,12 @@ def nutrients_from_csv(csv_path: str, api_key: str = None) -> dict:
         name  = row["ingredient_name"].strip()
         grams = float(row["grams"])
 
-        # Strip any parenthetical notes Claude adds (e.g. "marshmallows (contains gelatin)")
         search_name = re.sub(r'\s*\(.*?\)', '', name).strip()
 
-        # ── Skip ingredients that produce bad USDA matches ────────────────────
         if search_name.lower() in SKIP_INGREDIENTS:
-            print(f"  Skipping '{name}' (trace seasoning — negligible nutrition)")
+            print(f"  Skipping '{name}' (in skip list — trace/no good USDA match)")
             continue
 
-        # ── Step A: find FDC ID (direct map first, then search) ───────────────
         print(f"  Searching USDA: '{name}' ...", end=" ", flush=True)
 
         if search_name.lower() in DIRECT_FDC_MAP:
@@ -239,10 +319,8 @@ def nutrients_from_csv(csv_path: str, api_key: str = None) -> dict:
 
             print(f"→ [{fdc_id}] {description}")
 
-        # ── Step B: fetch real nutrient data (per 100g) ───────────────────────
         per_100g = fetch_nutrients_per_100g(fdc_id, api_key)
 
-        # ── Step B2: sanity check per-100g values before scaling ─────────────
         flagged = []
         if name.lower() not in SANITY_WHITELIST:
             for nutrient_label, threshold in SANITY_THRESHOLDS_PER_100G.items():
@@ -253,15 +331,11 @@ def nutrients_from_csv(csv_path: str, api_key: str = None) -> dict:
             print(f"\n  ⚠️  SANITY FLAG for '{name}' → [{fdc_id}] {description}")
             for f in flagged:
                 print(f"      {f}")
-            print(f"      → Verify at fdc.nal.usda.gov and add correct ID to DIRECT_FDC_MAP")
-            print(f"      → Continuing with this entry but results may be inaccurate\n")
+            print(f"      → Verify at fdc.nal.usda.gov and add correct ID to DIRECT_FDC_MAP\n")
 
-        # ── Step C: scale to actual gram weight (USDA is per 100g) ───────────
-        # Example: 60g ground beef → factor = 0.6 → protein = 26g * 0.6 = 15.6g
         factor = grams / 100.0
         scaled = {k: round(v * factor, 3) for k, v in per_100g.items()}
 
-        # ── Step D: add to meal totals ────────────────────────────────────────
         for label, val in scaled.items():
             totals[label] += val
 
@@ -273,17 +347,14 @@ def nutrients_from_csv(csv_path: str, api_key: str = None) -> dict:
             "nutrients_scaled":  scaled,
         })
 
-        time.sleep(0.15)   # stay polite to the API
+        time.sleep(0.15)
 
     totals = {k: round(v, 2) for k, v in totals.items()}
 
     if missing:
         print(f"\n  WARNING: {len(missing)} ingredient(s) not found: {missing}")
-        print("  → You can manually add FDC IDs to the CSV and re-run if needed.")
+        print("  → Add SR Legacy FDC IDs to DIRECT_FDC_MAP after running lookup_fdc.py")
 
-    # ── Meal-level sanity checks ──────────────────────────────────────────────
-
-    # Check 1: zero-nutrient ingredients — USDA found something but it had no data
     zero_nutrient = [
         i["name"] for i in ingredients
         if sum(i["nutrients_scaled"].values()) == 0
@@ -293,16 +364,14 @@ def nutrients_from_csv(csv_path: str, api_key: str = None) -> dict:
         for z in zero_nutrient:
             print(f"      '{z}' — verify the FDC entry has nutrient data")
 
-    # Check 2: total calorie range for a school lunch
     total_kcal = totals.get("Calories (kcal)", 0)
     if total_kcal < 200:
         print(f"\n  ⚠️  CALORIE FLAG: Total meal = {total_kcal:.0f} kcal — seems too low for a school lunch")
-        print(f"      → Recipe may be missing ingredients or gram weights are too small")
+        print(f"      → Side dish or snack item — expected for non-entree items")
     elif total_kcal > 1200:
-        print(f"\n  ⚠️  CALORIE FLAG: Total meal = {total_kcal:.0f} kcal — seems too high for a school lunch")
+        print(f"\n  ⚠️  CALORIE FLAG: Total meal = {total_kcal:.0f} kcal — seems too high")
         print(f"      → Check for inflated gram weights or bad USDA matches")
 
-    # Check 3: macro fat ratio — flag if fat > 55% of calories
     protein_kcal = totals.get("Protein (g)", 0) * 4
     fat_kcal     = totals.get("Total Fat (g)", 0) * 9
     carb_kcal    = totals.get("Carbohydrates (g)", 0) * 4
@@ -313,8 +382,6 @@ def nutrients_from_csv(csv_path: str, api_key: str = None) -> dict:
             print(f"\n  ⚠️  MACRO FLAG: Fat = {fat_pct:.0f}% of calories — unusually high")
             print(f"      → Check oil/cheese/meat weights; or note as a finding in your report")
 
-    # Check 4: calorie consistency with district-provided info
-    # (only runs if expected_kcal was passed in)
     print(f"\n[step3] Done. {len(ingredients)}/{len(rows)} ingredients found in USDA.")
     print(f"[step3] Meal totals: {total_kcal:.0f} kcal  |  "
           f"Protein {totals.get('Protein (g)',0):.1f}g  |  "
@@ -326,11 +393,6 @@ def nutrients_from_csv(csv_path: str, api_key: str = None) -> dict:
 
 def check_calorie_consistency(total_kcal: float, expected_kcal: float,
                                tolerance: float = 0.30) -> None:
-    """
-    Compare pipeline calorie total against district-provided calories.
-    Prints a warning if they differ by more than tolerance (default 30%).
-    Call this from main.py after step3 if the user provided district calories.
-    """
     diff_pct = abs(total_kcal - expected_kcal) / expected_kcal
     if diff_pct > tolerance:
         print(f"\n  ⚠️  CALORIE CONSISTENCY FLAG:")

@@ -11,6 +11,7 @@ USDA_API_KEY_FILE = "usdaapikey.txt"   # path to key file, or set USDA_API_KEY d
 USDA_API_KEY      = None               # filled at runtime by load_keys()
 
 ANTHROPIC_MODEL   = "claude-sonnet-4-20250514"
+ANTHROPIC_MODEL_FAST = "claude-haiku-4-5-20251001"
 
 # ── USDA API ──────────────────────────────────────────────────────────────────
 USDA_BASE_URL     = "https://api.nal.usda.gov/fdc/v1"

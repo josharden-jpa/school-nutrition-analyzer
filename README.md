@@ -5,7 +5,7 @@
 Cafeteria Critic reads a school's *published* lunch menu — the same feed parents see in the menu apps — and scores every reimbursable meal a student could assemble that day against the USDA Healthy Eating Index (HEI-2020). For a fixed menu that's one tray a day; for a choice menu it's hundreds. Instead of a single grade, it returns a **distribution**: the worst tray a student can build, the average, and the best — and it splits the spread into *what you pick* (within-day choice) versus *what day it is* (calendar rotation).
 
 <!-- Drop a console screenshot of the envelope summary here -->
-![Envelope output](envelope.png)
+![Envelope output](docs/envelope.png)
 
 ## The idea
 
@@ -30,7 +30,7 @@ Run across districts that differ on every obvious axis — affluent vs. high-pov
 > **On rigor:** the *absolute* scores shift with modeling assumptions (e.g., how a daily fruit/veg bar is enumerated). The *structural* findings above don't — they survive the ingredient-matching changes, the vendor switch, and the modeling choices. The tool is built to expose structure, not to rank schools.
 
 <!-- Drop a screenshot of a floor/ceiling tray with its named culprit item here -->
-![Floor and ceiling trays](floor_ceiling.png)
+![Floor and ceiling trays](docs/floor_ceiling.png)
 
 ## How it works
 
