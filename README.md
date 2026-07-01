@@ -1,91 +1,124 @@
 # Cafeteria Critic
+### A school lunch scoring pipeline built on real menu data, USDA food group standards, and the belief that what kids eat at school actually matters.
 
-**Scores what students could actually eat — not just what's printed on the menu.**
+---
 
-Cafeteria Critic reads a school's *published* lunch menu — the same feed parents see in the menu apps — and scores every reimbursable meal a student could assemble that day against the USDA Healthy Eating Index (HEI-2020). For a fixed menu that's one tray a day; for a choice menu it's hundreds. Instead of a single grade, it returns a **distribution**: the worst tray a student can build, the average, and the best — and it splits the spread into *what you pick* (within-day choice) versus *what day it is* (calendar rotation).
+## Why I Built This
 
-<!-- Drop a console screenshot of the envelope summary here -->
-![Envelope output](envelope.png)
+I'm Josh, a public administration student at Syracuse University's Maxwell School with a strong interest in food policy and institutional food systems. I believe that change — for better or for worse — can happen at a significant scale when it comes to the resources and consumption of food that we are serving and supplying, especially for kids in school. School-age children are growing and in need of proper nutrition, and in many cases school is a huge, if not the majority, if not the sole provider of food for children at different points in their lives.
 
-## The idea
+I wanted to create a tool that could be used by parents, school boards, and school chefs alike — something that could help find gaps in nutrition and advocate for change, like the addition of plant-based foods, with the ability to easily input and quickly see effects at wide scale. My hope is to make a tool that advocates for healthy, plant-based meal options, but I believe that with the right data, logic, and programming, something useful for anybody has been created: a way to quickly analyze school lunches and score them against official benchmarks already in place.
 
-A lunch menu with choice isn't one meal — it's a *space* of possible meals, and a single letter grade hides that. So the core of the tool is a combinatorial **tray model**: it enumerates every valid National School Lunch Program tray (one entrée, one fruit, one vegetable, one beverage), scores each against HEI-2020, and reports the whole distribution.
+---
 
-That distribution is both more honest and more useful than a grade:
+## What a School Cafeteria Actually Is
 
-- the **floor** is the worst meal the menu permits — a guarantee, or the lack of one
-- the **ceiling** is its best-case potential
-- the **spread** says whether quality rides on the student's choices or on the calendar
+A school cafeteria today is not just a lunch hall. It is a mini grocery store. Many students are presented with options, and the fight starts young — for companies and even food ideologies — to route the next generation into decisions and habits before they become adults who buy their own groceries and make their own eating choices.
 
-A fixed menu is simply the degenerate case: a distribution with zero within-day spread.
+The options children have are not unlimited, and there is a huge role that business and politics plays in what ends up on a child's plate. What a child gets used to eating now can have a major impact on what they choose to eat for the rest of their lives. This tool exists to give everybody — consumers, producers, and the schools that put lunches together — the best, most accessible, and most verifiable information possible about what they are offering children, including the typical plate as well as the best and worst that can be consumed on any given day.
 
-## What it found
+---
 
-Run across districts that differ on every obvious axis — affluent vs. high-poverty, two menu-software vendors (Nutrislice and MealViewer), California / New York / Texas — the same pattern holds:
+## What It Does
 
-- **Whole grains are absent (0 / 10) everywhere.** A high-poverty rural district and a wealthy one fail the same component for the same reason. The failure looks structural to commodity-style menus, not a wealth gap.
-- **Failure is about absence, not excess.** Menus lose points for what's *missing* — whole grains, dairy, whole fruit — not for junk. The worst tray a student can assemble is usually incomplete, not unhealthy.
-- **Choice changes the variance, not the floor.** A choice menu opens a wide within-day envelope; a fixed menu has none. But if neither serves a whole grain, the ceiling is capped the same way.
+Cafeteria Critic finds real school menu listings and converts concrete nutrient information into standardized food group servings in order to produce standardized scores — determined officially by the USDA Healthy Eating Index 2020 (HEI-2020). 
 
-> **On rigor:** the *absolute* scores shift with modeling assumptions (e.g., how a daily fruit/veg bar is enumerated). The *structural* findings above don't — they survive the ingredient-matching changes, the vendor switch, and the modeling choices. The tool is built to expose structure, not to rank schools.
+For schools that offer daily choices, the tool quickly calculates each possible lunch tray combination in order to find a range of possible scores over time. As the program grows, it maps and retains information across counties and states, enabling comparisons of scores as well as what is holding back or propping up some scores over others.
 
-<!-- Drop a screenshot of a floor/ceiling tray with its named culprit item here -->
-![Floor and ceiling trays](floor_ceiling.png)
+---
 
-## How it works
+## The Hard Problem — and How It Was Solved
 
+The data that schools post publicly looks like a nutrition label on the back of a product you would buy from the store. But those numbers are not how the USDA scores the health of a meal. For that, you need serving amounts of different food groups — protein, greens, dairy, whole grains, and so on. The part that had to be somewhat simulated was the conversion between micro and macro nutrients and the serving sizes of food groups.
+
+This tool may not produce a perfect conversion rate, but it has backup mechanisms to get closer to the real posted meal. More importantly, the pipeline is built so that any error is repeated consistently across schools as their nutrient information is converted into food group values. Even if the scale is off by a little, it is off by that same amount for each measurement — so when we look at differences between schools, those differences are still real, even if the absolute values carry an honest asterisk. That consistency is what makes comparison valid.
+
+---
+
+## The Three Layers
+
+**1. The data is real.**
+Rather than estimating meals from scratch, the pipeline pulls nutrient data posted directly by schools through their menu vendor software. This is the information schools are already publishing — it just hasn't been connected to a scoring system until now.
+
+**2. The conversion is the hard part.**
+Schools give us the chemistry — calories, sodium, fat. HEI needs the ingredients — how many ounces of whole grain, how many cups of vegetables. Bridging that gap is the core technical work of this project, and it is where the methodology lives.
+
+**3. The combinations are the point.**
+On days where a school offers choices, the pipeline enumerates every possible tray a student could select and scores them all. This produces a distribution — a mean, a median, a standard deviation — rather than a single fixed score. That range is itself a finding. It tells you something about what the school is structurally offering, not just what one kid happened to pick.
+
+---
+
+## What the Findings Show
+
+Across every district tested so far, schools are consistently missing points on whole grains. Refined grains contribute nothing to the HEI score, and they dominate most menus.
+
+The more nuanced finding is that school lunch health outcomes are multidimensional. For schools with fixed menus, the score ceiling is lower — but so is the floor. For schools with choices, a student can do better, but they can also do worse. Whether it is the daily offerings or the individual choices within them that determines a likely score on any given day is different from school to school. The tool is designed to start separating those two levers.
+
+---
+
+## What the Tool Cannot Tell You (Yet)
+
+The moderation side of HEI — sodium, saturated fat, added sugars — is anchored to published label data and is on firm ground. The adequacy side — food group servings — depends on the AI-assisted conversion and carries an error range that is named, bounded, and designed to be consistent rather than hidden. The audit layer built into this pipeline measures and documents that error explicitly, which is itself a finding about what it takes to do this kind of analysis at scale.
+
+---
+
+## Where This Could Go
+
+There are two real use cases for a tool like this, and they are not the same thing.
+
+The first is parent-facing: give me the best tray my kid can pick today. That is a consumer tool — useful, immediate, and something a parent could act on.
+
+The second is district-facing: use this to design menus that score higher before they are ever served. That is a policy and procurement tool. It tells a food service director that their menu structurally cannot score above a certain ceiling because whole grains are not in the rotation. That is the upstream lever, and it is the one that can move millions of meals.
+
+There is also a plant-based comparison layer built into the pipeline. Input any menu item and the tool can run a plant-based alternative through the same scoring system. The data speaks for itself.
+
+---
+
+## The Bottom Line
+
+School lunch is not a joke of a meal that gets thrown around in a food fight in a movie. It is millions of meals every day, and for many children it is an incredibly vital life source — literally. What is being offered and served in school cafeterias deserves to be taken seriously, measured rigorously, and made visible to everyone who has a stake in it.
+
+That is what this tool is for.
+
+---
+
+## Technical Setup
+
+**Requirements:**
 ```
-published menu feed
-  → vendor adapter (Nutrislice | MealViewer)     normalize to a common day/tray shape
-  → item decomposition (Claude)                  "Chicken Teriyaki Bowl" → ingredients
-  → USDA FoodData Central + FPED food groups     ingredients → HEI food groups
-  → HEI-2020 component scoring
-  → combinatorial tray model                     enumerate every valid tray
-  → distribution + variance decomposition
+pip install requests pandas matplotlib reportlab openpyxl
 ```
 
-A few pieces worth calling out:
+**API Keys needed:**
+- USDA FoodData Central (free): https://fdc.nal.usda.gov/api-guide.html — place key in `usdaapikey.txt`
+- Anthropic API key — set as environment variable `ANTHROPIC_API_KEY`
 
-- **Vendor-agnostic core.** Each menu vendor gets a thin adapter that reshapes its feed into one common structure; a single scoring engine serves all of them. Adding a vendor is a small shim, not a rewrite.
-- **Claude-assisted matching.** Menu items are free text ("OTG Galaxy Parfait"). The pipeline decomposes each into ingredients, matches them to USDA food codes, and runs an auto-validation step that rejects bad fuzzy matches before they contaminate the food-group scores — backed by a learned cache so each item is resolved once.
-- **Observability as signal.** Menus that publish per-item role tags turn out to be the ones with real choice; fixed menus publish flat, untagged lists. The *shape of the data* is itself a fingerprint of how the cafeteria is run.
+**Key scripts:**
 
-## Running it
-
-```bash
-pip install -r requirements.txt
-# set your USDA FoodData Central and Anthropic keys (see config.py) — never commit them
-```
-
-```python
-# a choice menu's full distribution (Nutrislice)
-import tray_score
-from datetime import date, timedelta
-weeks = [date(2026, 4, 6) + timedelta(weeks=i) for i in range(8)]
-dist = tray_score.score_distribution("srvusd", 45535, 15026, weeks,
-                                     grade_band="K-5", label="San Ramon Valley USD")
-tray_score.show_summary(dist)
-
-# the same engine, a different vendor (MealViewer)
-import mealviewer_bridge as mv
-dist = mv.score("JAMESMADISONHIGH", weeks, grade_band="9-12", label="Dallas Madison HS")
-tray_score.show_summary(dist)
-```
-
-## Repo map
-
-| area | files |
+| Script | Role |
 |---|---|
-| scoring engine | `tray_score.py`, `score_district.py`, `tray_model.py` |
-| vendor adapters & discovery | `nutrislice_*.py`, `mealviewer_bridge.py`, `mealviewer_discover.py`, `probe_district.py` |
-| food matching | `step3b_fped.py`, `lookup_fdc.py`, `fped_learned.json`, `FPED_1718.xlsx` |
-| original linear pipeline | `step1_*` – `step6_*.py`, `main.py` |
-| outputs & maps | `*_summary.csv`, `*_daily.csv`, `map_*.py` |
+| `nutrislice_scraper.py` | Pulls menu and nutrient data from Nutrislice vendor |
+| `nutrislice_fped_bridge.py` | Converts nutrient labels to food group servings |
+| `score_district.py` | Runs HEI-2020 scoring across a district |
+| `tray_score.py` | Enumerates all tray combinations and produces score distribution |
+| `results_ledger.py` | Persists scored results across districts |
+| `audit_reconstruction.py` | Compares reconstructed nutrients to posted labels |
+| `audit_error_model.py` | Measures and decomposes error by item type |
+| `lookup_fdc.py` | Verifies USDA FoodData Central ingredient IDs |
+| `main.py` | Orchestrates single-meal pipeline |
 
-## Data & credits
+**To run a district:**
+```bash
+python score_district.py
+```
 
-USDA Healthy Eating Index (HEI-2020), Food Patterns Equivalents Database (FPED), and FoodData Central are public USDA resources. Menu data comes from public Nutrislice and MealViewer feeds. Item decomposition and matching are assisted by the Anthropic API.
+**To run the audit layer:**
+```bash
+python audit_reconstruction.py
+python audit_error_model.py
+```
 
-## Limitations
+---
 
-This scores menu *potential*, not consumption — what a student could assemble, not what they ate; closing that gap would take point-of-sale data. Absolute scores are sensitive to modeling choices (see the note above). The structural findings are what the tool is built to support.
+*Built by Josh Arden — Maxwell School of Citizenship and Public Affairs, Syracuse University*
+
